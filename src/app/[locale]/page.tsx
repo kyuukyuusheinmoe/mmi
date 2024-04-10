@@ -14,12 +14,10 @@ export default async function Home({
 
   return (
     <div>
-      <p>
-        Current locale:
-        <span>{currentLocale}</span>
-      </p>
-      <p>Hello: {t('hello')}</p>
-      <Switch />
+      <div className="flex justify-between">
+        <p>{t('hello')}</p>
+        <Switch />
+      </div>
       <Provider locale={currentLocale}>
         <CountryList />
         <CountryInformation />

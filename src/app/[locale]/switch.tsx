@@ -1,19 +1,19 @@
 'use client';
 
-import { useChangeLocale } from '../../locales/client';
+import { useChangeLocale } from '@/locales/client';
 
 export function Switch() {
-  // Uncomment to preserve the search params. Don't forget to also uncomment the Suspense in the layout
-  const changeLocale = useChangeLocale(/* { preserveSearchParams: true } */);
+  const changeLocale = useChangeLocale();
 
   return (
-    <>
+    <div>
       <button type="button" onClick={() => changeLocale('en')}>
         EN
       </button>
+      -
       <button type="button" onClick={() => changeLocale('my')}>
         MY
       </button>
-    </>
+    </div>
   );
 }

@@ -15,7 +15,7 @@ const ImageButton = ({ label, code }: ImageButtonProps) => {
 
   return (
     <Link href={`?country=${code}`}>
-      <div className="flex p-2 border-2 border-red-300 w-fit rounded-full">
+      <div className="flex gap-2 p-2 border-2 border-red-300 w-fit rounded-full">
         <span className={clsx('fi', `fi-${code}`)}></span>
         {t(label as keyof typeof Language)}
       </div>

@@ -9,8 +9,8 @@ export const countryMapper: { [key: string]: any } = {
     categories: {
       accomodation: {
         refs: [
-          'https://www.renthub.in.th/',
-          'https://www.airbnb.com/thailand/stays',
+          { label: 'RentHub', url: 'https://www.renthub.in.th/' },
+          { label: 'AirBnb', url: 'https://www.airbnb.com/thailand/stays' },
         ],
         suggestions: [
           {
@@ -36,8 +36,9 @@ export const countryMapper: { [key: string]: any } = {
         ],
       },
       residentialStatus: {
-        ref: [
-          'https://yangon.thaiembassy.org/en/page/do-i-need-a-visa?menu=5d7d27c515e39c2e64001ff4',
+        refs: [
+          { label: 'RentHub', url: 'https://www.renthub.in.th/' },
+          { label: 'AirBnb', url: 'https://www.airbnb.com/thailand/stays' },
         ],
         suggestions: [
           {
@@ -61,6 +62,7 @@ export const countryMapper: { [key: string]: any } = {
           {
             key: 'popular',
             reasons: ['near to markets', 'near to hospitals'],
+            messages: [''],
           },
         ],
       },
