@@ -1,6 +1,1 @@
-export const basicNeeds = [
-  'accomodations',
-  'food',
-  'health',
-  'residentialStatus',
-];
+export const basicNeeds = ['accomodations', 'food', 'health', 'immigration'];

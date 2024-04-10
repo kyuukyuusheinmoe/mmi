@@ -1,6 +1,7 @@
 export const countries = [
   { label: 'thailand', code: 'th' },
   { label: 'vietnam', code: 'vn' },
+  { label: 'cambodia', code: 'kh' },
 ];
 
 export const countryMapper: { [key: string]: any } = {
@@ -40,7 +41,7 @@ export const countryMapper: { [key: string]: any } = {
           },
         ],
       },
-      residentialStatus: {
+      immigration: {
         suggestions: [
           {
             key: 'popular',
@@ -126,7 +127,7 @@ export const countryMapper: { [key: string]: any } = {
           },
         ],
       },
-      residentialStatus: {
+      immigration: {
         ref: [
           'https://yangon.thaiembassy.org/en/page/do-i-need-a-visa?menu=5d7d27c515e39c2e64001ff4',
         ],
@@ -135,6 +136,74 @@ export const countryMapper: { [key: string]: any } = {
             key: 'popular',
             reasons: ['cheap', '2 months stay'],
             messages: [],
+          },
+        ],
+      },
+    },
+  },
+  kh: {
+    name: 'Vietnam',
+    categories: {
+      accomodation: {
+        refs: [
+          { label: 'RentHub', url: 'https://www.renthub.in.th/' },
+          { label: 'AirBnb', url: 'https://www.airbnb.com/thailand/stays' },
+        ],
+        suggestions: ['', ''],
+        checkPoints: [
+          'Check electricity and water bills that could be quite expensive when landloard define it rather than the goverment rate',
+        ],
+      },
+      food: {
+        suggestions: [
+          {
+            key: 'popular',
+            reasons: ['cheap', 'fresh'],
+          },
+        ],
+      },
+      health: {
+        suggestions: [
+          {
+            key: 'popular',
+            reasons: ['cheap', 'good service'],
+          },
+        ],
+      },
+      education: { suggestions: [] },
+      immigration: {
+        ref: [
+          'https://yangon.thaiembassy.org/en/page/do-i-need-a-visa?menu=5d7d27c515e39c2e64001ff4',
+        ],
+        suggestions: [
+          {
+            author: 'Burmese House',
+            address: 'Cambodia',
+            header: `Page မှာ အမေးများဆုံးမေးခွန်းမလို့ ဒီကနေပဲဖြေပေးလိုက်မယ်နော်`,
+            content: `Cambodia Work Permit / Visa လုပ်ဖို့ဘာစာရွက်စာတမ်းတွေလိုအပ်မလဲ ၊ ဘယ်လိုလျှောက်ရမလဲ ၊ ဘယ်လောက်ကုန်မလဲ ဆိုတာ သိရဖို့အဆုံးထိဖတ်ကြည့်လိုက်ပါနော်......
+
+            Cambodia မှာ ၃လ၊ ၆လ၊ ၁နှစ် visa လျှောက်ဖို့ဆိုရင် 
+            ***ပထမဆုံးအနေနဲ့ Cambodia ကိုလာခဲ့တဲ့ Visaက EB Visa ဖြစ်ဖို့လိုအပ်ပါတယ် 
+            
+            *** ဒုတိယအနေနဲ့ကတော့ Work Permit မဖြစ်မနေလုပ်ရပါမယ်
+            
+            🔸🔸🔸ခြွင်းချက်အနေနဲ့ကတော့ EB Visa နဲ့လာတဲ့သူတွေက 3လ Visa Extension ကို work permit မလိုပဲ တစ်ကြိမ်သတ်တမ်းတိုးပြီးနေလို့ရပါတယ် သတ်တမ်းကုန်ပြီးဆိုရင် Cambodia ကနေအထွက်ပြရပါတယ် နောက်တစ်ကြိမ်သတမ်းတိုးဖို့ဆိုရင် အဲ့ဒီလူတွေအတွက်က မဖြစ်မနေ work permit လုပ်ရပါပြီ။ 
+            
+            Note - EB Visa ကို  Cambodia လေဆိပ်မှာ Immigration မဖြတ်ခင် $50 ပေးပြီး  EB Visa တုံးထုခိုင်းလို့ရပါတယ် ( တစ်ချို့လဲမရကြပါဘူး ဘာကြောင့်လဲမသိပါ ) လေဆိပ်မှာ EB Visaမရခဲ့ဘူးဆို ဗီယနမ်ကို အထွက်ပြပြီး ပြန်အဝင်မှာ EB Visaတုံး ထုခိုင်းလို့ရပါပြီ $50 ကျပါမယ်
+            
+            ***ရည်ရှည်နေမယ့်သူတွေအတွက်ကတော့ work permit သေချာပေါက် လုပ်ရပါမယ်။
+            
+            🔸🔸🔸အလုပ်မရှိလဲသူတွေအတွက်လဲ ဘာစာရွက်စာတမ်းမှ မလိုပဲ Self - Employ Work permit လျှောက်လို့ရပါတယ်။
+            
+            ***Work Permit ရှိပြီဆို ၃လ ၊ ၆လ၊ ၁၂လ စသည်ဖြင့် သတမ်းတိုးပြီးနေလို့ရပါပြီ၊ တစ်ခြားစာရွက်စာတမ်းမရှိလဲ ရပါတယ်။
+            
+            🔸🔸🔸Cambodia Work Permit သတ်တမ်းက 1 Jan ကနေ 31 Dec အထိ ပါ။
+            
+            *** Dependant Visa ကတော့ အရင်တုန်းကလို လွယ်လွယ်နဲ့ မရတော့ပါဘူး စာရွက်စာတမ်းအကုန်ပြရပါမယ် လက်ထပ်စာချုပ် နိုတြိကအစ......
+            
+            Note - Dependent visaလျှောက်ဖို့အတွက် work permit တော့မလိုပါ။
+            
+            *** Student Visa လျှောက်ဖို့အတွက် မိမိသားသမီးတွေ လက်ရှိတက်နေတဲ့ ကျောင်းကနေ လိုအပ်တဲ့စာရွက်သာတမ်းတောင်းပြီးလျှောက်လို့ရပါတယ်။`,
           },
         ],
       },

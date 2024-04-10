@@ -5,5 +5,5 @@ export const basicNeedsIcons: { [key: string]: ReactElement<any, any> } = {
   accomodation: <HomeIcon />,
   food: <FoodIcon />,
   hospital: <HospitalIcon />,
-  residentialStatus: <VisaIcon />,
+  immigration: <VisaIcon />,
 };

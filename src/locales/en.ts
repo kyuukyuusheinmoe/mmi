@@ -1,10 +1,11 @@
 export default {
+  thailand: 'Thailand',
+  cambodia: 'Cambodia',
+  vietnam: 'Vietnam',
   hello: 'Hello',
   title: 'Title',
-  thailand: 'Thailand',
-  vietnam: 'Vietnam',
   food: 'Food',
   health: 'Health',
-  residentialStatus: 'Residential Status',
+  immigration: 'Immigration',
   accomodation: 'Accomodation',
 } as const;
