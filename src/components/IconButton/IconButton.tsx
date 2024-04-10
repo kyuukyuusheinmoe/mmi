@@ -20,7 +20,7 @@ const IconButton = ({ label, icon, category }: ImageButtonProps) => {
   const t = useI18n();
   return (
     <Link href={`?country=${country}&category=${category}`}>
-      <div className="flex items-center gap-1 p-2 border-2 border-red-300 w-fit rounded-full">
+      <div className="flex items-center gap-1 p-2 border-2 border-red-300 w-fit rounded-full whitespace-nowrap">
         {icon}
         {t(label as keyof typeof Language)}
       </div>
