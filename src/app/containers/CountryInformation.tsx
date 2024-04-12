@@ -4,7 +4,6 @@ import IconButton from '@/components/IconButton';
 import { basicNeedsIcons } from './IconMappers';
 import Link from 'next/link';
 import StringAvatar from '@/components/StringAvatar';
-import MDXComponent from '@/components/MDXComponent';
 
 const CountryInformation = ({
   countryCode,
@@ -22,17 +21,14 @@ const CountryInformation = ({
 
   return (
     <div className="flex flex-col gap-y-4">
-      <h2 className="text-xl"> {countryInfo.name}</h2>
-      <MDXComponent
-        mdxStr={`I **love** using [Next.js](https://nextjs.org/)`}
-      />{' '}
+      <h2 className="text-xl"> {countryInfo?.name}</h2>
       <div className="flex flex-nowrap gap-2 overflow-auto">
-        {Object?.keys(countryInfo.categories)?.map((k) => (
+        {Object?.keys(countryInfo?.categories)?.map((k) => (
           <IconButton
             key={k}
             icon={basicNeedsIcons[k]}
             label={k}
-            category={k}
+            url={`?country=${countryCode}&category=${category}`}
           />
         ))}
       </div>

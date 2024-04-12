@@ -6,7 +6,10 @@ const CountryList = async () => {
   return (
     <div className="flex flex-wrap gap-2">
       {countries.map((country) => (
-        <ImageButton {...country} />
+        <ImageButton
+          {...country}
+          wrapperClass="border-[0.1px] border-red-300 rounded-md shadow-lg"
+        />
       ))}
     </div>
   );

@@ -1,4 +1,5 @@
 import { getI18n, getCurrentLocale } from '../../locales/server';
+import { defaultCountry } from '../constants/UIConstants';
 import CountryInformation from '../containers/CountryInformation';
 import CountryList from '../containers/CountryList';
 import { Provider } from './provider';
@@ -23,7 +24,7 @@ export default async function Home({
       <Provider locale={currentLocale}>
         <CountryList />
         <CountryInformation
-          countryCode={country || 'th'}
+          countryCode={country || defaultCountry}
           category={category || 'accomodation'}
         />
       </Provider>
