@@ -23,7 +23,9 @@ const CountryInformation = ({
   return (
     <div className="flex flex-col gap-y-4">
       <h2 className="text-xl"> {countryInfo.name}</h2>
-      <MDXComponent />
+      <MDXComponent
+        mdxStr={`I **love** using [Next.js](https://nextjs.org/)`}
+      />{' '}
       <div className="flex flex-nowrap gap-2 overflow-auto">
         {Object?.keys(countryInfo.categories)?.map((k) => (
           <IconButton
@@ -34,7 +36,6 @@ const CountryInformation = ({
           />
         ))}
       </div>
-
       <div>
         <ul>
           {suggestions?.map(
@@ -68,7 +69,6 @@ const CountryInformation = ({
           )}
         </ul>
       </div>
-
       <div>
         <h3 className="text-lg"> Check Points</h3>
         <ul>
@@ -80,7 +80,6 @@ const CountryInformation = ({
           ))}
         </ul>
       </div>
-
       <div>
         <h3 className="text-lg"> References</h3>
         <ul>

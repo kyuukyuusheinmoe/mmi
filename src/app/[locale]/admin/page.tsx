@@ -1,9 +1,8 @@
-'use client';
 import React from 'react';
-import MDEditor from '@uiw/react-md-editor';
+import MarkdownEditor from '@/app/containers/MarkdownEditor';
 
 const Admin = () => {
-  return <MDEditor />;
+  return <MarkdownEditor />;
 };
 
 export default Admin;
