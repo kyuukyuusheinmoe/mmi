@@ -28,7 +28,7 @@ const CountryInformation = ({
             key={k}
             icon={basicNeedsIcons[k]}
             label={k}
-            url={`?country=${countryCode}&category=${category}`}
+            url={`?country=${countryCode}&category=${k}`}
           />
         ))}
       </div>
