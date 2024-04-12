@@ -1,6 +1,3 @@
-'use client';
-
-import { useSearchParams } from 'next/navigation';
 import React from 'react';
 import { countryMapper } from '../constants/CountryList';
 import IconButton from '@/components/IconButton';
@@ -9,14 +6,14 @@ import Link from 'next/link';
 import StringAvatar from '@/components/StringAvatar';
 import MDXComponent from '@/components/MDXComponent';
 
-const CountryInformation = () => {
-  const searchParams = useSearchParams();
-
-  const country = searchParams.get('country') || 'th';
-
-  const category = searchParams.get('category') || 'accomodation';
-
-  const countryInfo = countryMapper[country as string];
+const CountryInformation = ({
+  countryCode,
+  category,
+}: {
+  countryCode: string;
+  category: string;
+}) => {
+  const countryInfo = countryMapper[countryCode as string];
 
   const references = countryInfo?.categories[category]?.refs;
   const suggestions = countryInfo?.categories[category]?.suggestions;
@@ -26,6 +23,7 @@ const CountryInformation = () => {
   return (
     <div className="flex flex-col gap-y-4">
       <h2 className="text-xl"> {countryInfo.name}</h2>
+      <MDXComponent />
       <div className="flex flex-nowrap gap-2 overflow-auto">
         {Object?.keys(countryInfo.categories)?.map((k) => (
           <IconButton

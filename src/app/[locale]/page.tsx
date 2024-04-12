@@ -5,9 +5,11 @@ import { Provider } from './provider';
 import { Switch } from './switch';
 
 export default async function Home({
-  params: { locale },
+  params,
+  searchParams: { country, category },
 }: {
   params: { locale: string };
+  searchParams: { country: string; category: string };
 }) {
   const t = await getI18n();
   const currentLocale = getCurrentLocale();
@@ -20,7 +22,10 @@ export default async function Home({
       </div>
       <Provider locale={currentLocale}>
         <CountryList />
-        <CountryInformation />
+        <CountryInformation
+          countryCode={country || 'th'}
+          category={category || 'accomodation'}
+        />
       </Provider>
     </div>
   );
