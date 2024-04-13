@@ -35,7 +35,7 @@ const Page = async ({
       </div>
 
       <div>
-        <ul className="grid grid-cols-2 lg:grid-cols-5 gap-2">
+        <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
           {references?.map((ref: ReferenceCardProps, index: number) => (
             <li key={index} className="text-sm">
               <ReferenceCard {...ref} />

@@ -31,7 +31,7 @@ const CountryInformation = async ({
 
   return (
     <div className="grid gap-y-4">
-      <h2 className="text-xl"> {t(countryInfo.name, { key: null })}</h2>
+      <h2 className="text-xl mt-2"> {t(countryInfo.name, { key: null })}</h2>
       <div className="flex flex-nowrap gap-2 overflow-scroll no-scrollbar">
         {Object?.keys(countryInfo?.categories)?.map((k) => (
           <IconButton
