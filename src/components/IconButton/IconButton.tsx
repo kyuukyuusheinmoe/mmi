@@ -1,11 +1,8 @@
-'use client';
-
-import React, { ReactElement } from 'react';
-import { useSearchParams } from 'next/navigation';
-import { useI18n } from '@/locales/client';
-import Language from '@/locales/en';
-import Link from 'next/link';
-import { defaultCountry } from '@/app/constants/UIConstants';
+"use client";
+import React, { ReactElement } from "react";
+import { useI18n } from "@/locales/client";
+import Language from "@/locales/en";
+import Link from "next/link";
 
 type ImageButtonProps = {
   label: string;
@@ -13,11 +10,7 @@ type ImageButtonProps = {
   url?: string;
 };
 
-const IconButton = ({ label, icon, url = '#' }: ImageButtonProps) => {
-  console.log('xxx icon ', icon, label);
-  const searchParams = useSearchParams();
-  const country = searchParams.get('country') || defaultCountry;
-
+const IconButton = ({ label, icon, url = "#" }: ImageButtonProps) => {
   const t = useI18n();
   return (
     <Link href={url}>

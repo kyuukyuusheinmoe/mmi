@@ -87,45 +87,47 @@ export const countryMapper: { [key: string]: any } = {
             author: 'Chuue Chuue',
             address: 'Vietnam',
             header: `Vietnam မှာ University တက်ချင်တဲ့ ဆိုတဲ့ သူတွေ အတွက်`,
-            content: `Vietnam မှာလဲ အမကိုယ်တိုင် ပညာရေး နယ်ပယ်ထဲက မို့ 
-            US သွားဖို့ Visa မရတဲ့ သူတွေ နိုင်ငံ ကြီး တွေ သွားဖို့ ထက် Budget အသင့်အတင့်နဲ့ ဘွဲ့ရ ဖို့ အတွက် 2nd Option အနေနဲ့ ရွေးတက်လို့ရအောင် ရေးပေးတာ ပါ 
+            content: `Vietnam မှာ Bachelor ကို လေးနှစ်လုံး Vietnam မှာ တက်ရတဲ့ ကျောင်းတွေ ရှိသလို
+
+            ***USA, UK, Australia, Netherland*** စတဲ့ ***Transfer program*** နဲ့ တက်လို့ ရတဲ့ ကျောင်းတွေလည်း ရှိပါတယ်
             
-            Ranking ကောင်းပြီး Program Structure ကောင်းတဲ့ ကျောင်းတွေ ကို ပြောပြပေးပါ့မယ် 
-            USA, UK, Australia, Netherland စတဲ့ Transfer program နဲ့ တက်လို့ ရတဲ့ ကျောင်းတွေ ရှိပါတယ်
-            ဒါမှ မဟုတ် ဘူး Bachelor ကို လေးနှစ်လုံး Vietnam မှာ တက်ချင်တယ် ဆိုလဲ ရပါတယ် 
+            ***Transfer program***  မှာ
             
-            **Transfer program ဆိုတာ ဘာလဲ 
             2+2 program or 3+1 program တွေ ရှိပါတယ်
-            ဥပမာ Vietnam မှာ နှစ်နှစ်တက်ပြီး US မှာ နှစ်နှစ်ဆက်တက်တာမျိုး 
-            Vietnam မှာ သုံးနှစ်တက်ပြီး UK မှာ တစ်နှစ်တက်တာ မျိုး
-            ဒါကလဲ ကိုယ်ယူထားတဲ့ Major ကိုယ်ရွေးတဲ့ ကျောင်း ပေါ် မူတည်ပြီး နိုင်ငံ ရွေးလို့ ရပါတယ်
             
-            ကျောင်း တွေ မှာ Vietnamese + English ရောသင်တဲ့ Major ရွေးလို့ ရသလို 
-            English only နဲ့ သင်တဲ့ Major လဲ ရွေးလို့ ရပါတယ်
-            Vietnam Language program အတွက် တက်မယ် ဆို ကျောင်းတွေမှာ 4 လ 6 လ တနှစ် စတဲ့ ကျောင်းပေါ် မူတည်ပြီး အမျိုး မျိုး ရှိပါတယ် 
-            ဒါကတော့ ကိုယ်က စဥ်းစားရမှာပေါ့ နော် ကျောင်းတက်ရင်း အလုပ်လုပ်ချင်တဲ့ သူ ဆို Vietnam program တက်တာ က မမှားဘူး ပေါ့ 
+            ဥပမာ Vietnam မှာ နှစ်နှစ်တက်ပြီး US မှာ နှစ်နှစ်ဆက်တက်တာ
             
-            1. Ton Duc Thang University
-            2. Vietnam National University
-            3. RMIT 
-            4 American University Vietnam 
-            5. British University Vietnam
+            Vietnam မှာ သုံးနှစ်တက်ပြီး UK မှာ တစ်နှစ်တက်တာ မျိုးတွေ
+            
+            ဒါကလဲ ကိုယ်ရွေးတဲ့ ကျောင်း နဲ့ Major  ပေါ် မူတည်ပြီး နိုင်ငံ ရွေးလို့ ရပါတယ်
+            
+            ကျောင်း တွေ မှာ Vietnamese + English ရောသင်တဲ့ Major ရွေးလို့ ရသလို English only နဲ့ သင်တဲ့ Major လဲ ရွေးလို့ ရပါတယ်
+            
+            Vietnam Language program အတွက် တက်မယ် ဆို ကျောင်းတွေမှာ 4 လ 6 လ တနှစ် စတဲ့ ကျောင်းပေါ် မူတည်ပြီး အမျိုး မျိုး ရှိပါတယ်
+            
+            ကျောင်းတက်ရင်း အလုပ်လုပ်ချင်တဲ့ သူ ဆို Vietnam program တက်တာ က မမှားဘူး ပေါ့
+            
+            1. [Ton Duc Thang University](https://www.tdtu.edu.vn/en)
+            
+            2. [Vietnam National University](https://vnu.edu.vn/eng/)
+            
+            3. [RMIT](https://www.rmit.edu.au/)
+            
+            4. [American University Vietnam](https://auv.edu.vn/)
+            
+            5. [British University Vietnam](https://www.buv.edu.vn/en/)
             
             School Fee တနှစ် စာ ပျမ်းမျှ ခြင်း USD 14,000 ဝန်းကျင် ရှိပါတယ်
-            Requirement တွေ က English test IELTS 5.0 လက်ခံတဲ့ ကျောင်း ရှိသလို 6.0 လက်ခံတဲ့ ကျောင်း တွေလဲ ရှိပါတယ် တချို့ ကျောင်း တွေက သူတို့ ကျောင်းရဲ့ English test ကို ဖြေလို့ ရပါတယ် 
             
-            ဘာ Major တက်လို့ ရလဲကို ကျောင်းတကျောင်း စီ Website မှာရှာလို့ ရပါတယ် 
+            Requirement တွေ က English test IELTS 5.0 လက်ခံတဲ့ ကျောင်း ရှိသလို 6.0 လက်ခံတဲ့ ကျောင်း တွေလဲ ရှိပါတယ် တချို့ ကျောင်း တွေက သူတို့ ကျောင်းရဲ့ English test ကို ဖြေလို့ ရပါတယ်
             
-            Germany မှာ ကျောင်းတက်မယ် ဆိုရင် တောင် ရေရှည်မှာ English Language တခုတည်း မလုံလောက်လို့ German စကားက တတ်ကိုတတ်ရပါတယ် 
-            Vietnam မှာ ကျောင်းတက်ပြီး အလုပ်လုပ်ချင်တဲ့ သူတွေ အတွက် Vietnam စကားက လိုကို လိုအပ်ပါတယ် 
-            
-            Education အတွက် အမနဲ့ Consulting လုပ်ချင်တယ် ဆိုရင် 
-            Comment က Page မှာ သွားပြီး Register လုပ်ထားလို့ ရပါတယ်
-            ပညာရေးနဲ့ သက်ဆိုင်တာ ဆို အဲ့ Page မှာ မေးလို့ ရပါတယ် 
-            ကျောင်းသားတယောက် ချင်းစီ ကို သေချာ Consulting လုပ်ပေးပါ့မယ် 
-            ပညာရေး ကို အားပေးတဲ့သူမို့ ပညာရေးလမ်းကြောင်းနဲ့ ပတ်သက်တာ မှန်သမျှတတ်နိုင်သလောက်  ကူညီပေးပါ့မယ်`,
+            Major တွေကို ကျောင်း Website မှာရှာလို့ ရပါတယ်
+            `,
           },
         ],
+        checkpoints: [
+              `Vietnam မှာ ကျောင်းတက်ပြီး အလုပ်လုပ်ချင်တဲ့ သူတွေ အတွက် Vietnam စကား လိုအပ်ပါတယ်`
+        ]
       },
       immigration: {
         ref: [
@@ -133,9 +135,64 @@ export const countryMapper: { [key: string]: any } = {
         ],
         suggestions: [
           {
-            key: 'popular',
-            reasons: ['cheap', '2 months stay'],
-            messages: [],
+            author: 'Chuue Chuue',
+            address: 'Vietnam',
+            header: 'Vietnam E visa ?',
+            content: `***Q*** Vietnam မှာ E visa လျှောက်ရင် ဘာစာရွက်စာတမ်းတွေ လိုမလဲ ?
+
+            ***A*** လက်ရှိ Policy အရ ဘာမှ မလိုပါဘူး**
+          
+            Form မှာ Personal Infomation သေချာ ဖြည့်ပြီး Passport ဓာတ်ပုံ နဲ့ Passport ရှေ့ခြမ်းပဲ လိုပါတယ် ပြီးတော့ Visa 	ကြေး USD 50 ရယ် ပဲ လိုပါတယ်
+          
+          ***Q*** Single Entry or Multiple Entry ဘာကွာလဲ
+          
+          ***A*** Single Entry ဆိုတာ Visa လျှောက်ပြီး ရင် တခြားနိုင်ငံ အဝင်အထွက် လုပ်မရပဲ ပြန်ဝင်ချင်ရင် Visa ထပ်လျှောက်ရပါတယ်
+          
+            Multiple Entry ကျ 3 လအတွင်း ကြိုက်တဲ့ နိုင်ငံ အဝင်အထွက် လုပ်လို့ ရပါတယ်
+          
+            Vietnam ပြန်ဝင်ရင်လဲ Visa မလိုပါဘူး ( 3 လအတွင်း နော်)
+          
+            ဒါပေမဲ့ Single Entry နဲ့ 3 လလျှောက်ရင် Visa ပေးကြတာ များပါတယ် ( ဘာလို့ ဆို ပိုက်ဆံလိုချင်လို့ပါ)
+          
+          ***Q***  E visa ကို Vietnam ရောက်မှ လျှောက်လို့ ရလား
+          
+          ***A*** မရပါဘူး နိုင်ငံ တွင်း နေရင်း Visa Extention မရပါ
+          
+            လျှောက်ချင်ရင် Cambodia Border or Laos Border ကို ဆိုင်ကယ် or ကားနဲ့ အထွက်ပြပြီး နိုင်ငံ ပြန်ဝင် ရပါတယ်
+          
+            အဲ့တော့ မလာခင်ထဲက 50 USD နဲ့ E visa လျှောက်ထားရင် အာရုံ နောက် သက်သာပါတယ်
+            
+          ***Q*** E VISA လျှောက်တာ ဘယ်လောက် ဆို Visa ရလဲ
+          
+          ***A*** ရုံးဖွင့်ရက် 3 ရက် အတွင်း Visa ကျပါတယ် ***Sat Sun အလုပ်မလုပ်ကြပါ**
+          
+          ***Q***  Border ဖြတ် ဖို့ ကား ရှိလား
+
+          ***A*** Vietnam to Cambodia
+          Vietnam to Laos ပြေးဆွဲ နေတဲ့ Express ကားတွေ ရှိပါတယ်
+              
+              
+          ***Q*** USD 50 အတွက် ဘာနဲ့ ပေးလို့ ရလဲ
+         
+          ***A*** Visa card နဲ့ ပေးလို့ ရပါတယ် (အခုထိတော့)
+          
+          ***Q***  မြန်မာ ပြည်က ထွက်ရင် E visa လျှောက်ထားတာ ပြရမလား
+          
+          ***A***  ပြစရာ မလိုပါဘူး ဒီဘက် Vietnam လေဆိပ် ရောက်မှ အဲ့ စာရွက် ထုတ်ပြပါ
+          
+          ***Q*** အပြန် လက်မှတ် ဘယ်လောက် ခွာဖြတ် ရမလဲ
+          
+          ***A*** ထွက်ပြီး ပြန်ဖို့ စိတ်ကူး မရှိရင် တပတ် ဆယ်ရက်လောက်ပဲ လက်မှတ် ကို ခွာဖြတ် ပါ
+          အပြန်လက်မှတ်ကတော့ ဆုံးပေါ့
+          
+            
+          ***Q*** Vietnam ဝင်ရင် Hotel Booking ပြရမလား
+          
+          ***A*** ပြစရာ မလိုပါဘူး ဘယ်နေရာ နေမလဲ ဆိုတာ တော့ တိတိကျကျ ပြောတတ်ဖို့ လိုပါတယ်
+          
+          ***Q*** E visa လျှောက်ဖို့  ??
+          
+          ***A*** [Link](https://evisa.xuatnhapcanh.gov.vn/en_US/web/guest/khai-thi-thuc-dien-tu/cap-thi-thuc-dien-tu)`,
           },
         ],
       },

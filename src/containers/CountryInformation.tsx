@@ -1,9 +1,10 @@
-import React from 'react';
-import { countryMapper } from '../constants/CountryList';
-import IconButton from '@/components/IconButton';
-import { basicNeedsIcons } from './IconMappers';
-import Link from 'next/link';
-import StringAvatar from '@/components/StringAvatar';
+import React from "react";
+import { countryMapper } from "../constants/CountryList";
+import IconButton from "@/components/IconButton";
+import { basicNeedsIcons } from "./IconMappers";
+import Link from "next/link";
+import { SuggestionCard } from "@/components/Cards";
+import { SuggestionCardProps } from "@/components/Cards/types";
 
 const CountryInformation = ({
   countryCode,
@@ -20,9 +21,9 @@ const CountryInformation = ({
   const checkpoints = countryInfo?.categories[category]?.checkPoints;
 
   return (
-    <div className="flex flex-col gap-y-4">
+    <div className="grid gap-y-4">
       <h2 className="text-xl"> {countryInfo?.name}</h2>
-      <div className="flex flex-nowrap gap-2 overflow-auto">
+      <div className="flex flex-nowrap gap-2 overflow-scroll">
         {Object?.keys(countryInfo?.categories)?.map((k) => (
           <IconButton
             key={k}
@@ -32,35 +33,11 @@ const CountryInformation = ({
           />
         ))}
       </div>
-      <div>
+      <div className="">
         <ul>
           {suggestions?.map(
-            (
-              sug: {
-                author?: string;
-                address?: string;
-                header?: string;
-                content?: string;
-              },
-              index: number
-            ) => (
-              <>
-                <h3 className="text-lg"> {`Suggestion - ${index + 1}`}</h3>
-                <div className="flex items-center gap-2">
-                  {sug.author ? <StringAvatar name={sug.author} /> : <></>}
-                  <div>
-                    {sug.author}
-                    <span className="text-xs"> {sug.address} </span>
-                  </div>
-                </div>
-                <li
-                  key={index}
-                  className="text-sm gap-x-1 flex flex-col items-baseline"
-                >
-                  <h5 className="font-bold"> {sug.header}</h5>
-                  {sug.content}
-                </li>
-              </>
+            (sug: Omit<SuggestionCardProps, "serialNo">, index: number) => (
+              <SuggestionCard serialNo={index + 1} {...sug} key={index} />
             )
           )}
         </ul>
