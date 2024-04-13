@@ -8,6 +8,7 @@ import {
   SuggestionCardProps,
 } from "@/components/Cards/types";
 import { getCurrentLocale, getI18n } from "@/locales/server";
+import { CategorySectionHeader } from "@/components/Headers";
 
 const CountryInformation = async ({
   countryCode,
@@ -30,7 +31,7 @@ const CountryInformation = async ({
 
   return (
     <div className="grid gap-y-4">
-      <h2 className="text-xl"> {countryInfo?.name}</h2>
+      <h2 className="text-xl"> {t(countryInfo.name, { key: null })}</h2>
       <div className="flex flex-nowrap gap-2 overflow-scroll no-scrollbar">
         {Object?.keys(countryInfo?.categories)?.map((k) => (
           <IconButton
@@ -63,7 +64,10 @@ const CountryInformation = async ({
         </ul>
       </div>
       <div className=" overflow-scroll no-scrollbar">
-        <h3 className="text-lg font-bold">{t("refs")}</h3>
+        <CategorySectionHeader
+          title={t("refs")}
+          seeAll={`/${countryCode}/${category}/refs`}
+        />
         <ul className="flex flex-nowrap gap-2">
           {references?.map((ref: ReferenceCardProps, index: number) => (
             <li key={index} className="text-sm">
