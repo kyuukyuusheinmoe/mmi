@@ -25,6 +25,30 @@ export const countryMapper: { [key: string]: any } = {
           'Check electricity and water bills that could be quite expensive when landloard define it rather than the goverment rate',
         ],
       },
+      education: {
+        suggestions: [
+          {
+            author: 'Travel Masters',
+            address: 'Thailand',
+            header: `ဘန်ကောက်နဲ့ ချင်းမိုင်မှာ ကျောင်းတက်မယ်ဆိုရင်`,
+            content: `***1.*** Language School, University Language Program Class နဲ့ စာမကျက်ချင်တဲ့ သူတွေကတော့ Self- defence School (ကိုယ်ခံပညာကျောင်း) တွေ တက်လို့ရပါတယ်။
+
+            ***2.*** အပေါ်ကကျောင်းအားလုံးက ဘာ အောင်လက်မှတ်မှ ပြစရာမလိုဘဲ ကျောင်း ED Visa နဲ့ (၁၂ လ) တချို့ကျောင်းတွေက (၁၅ လ) ရပါတယ်။
+           
+            ***3.*** ထိုင်းမှာ TR Visa နဲ့နေရင်း ED Visa ရဖို့ ကျောင်းက စာရင်းသွင်းတာ (၂၁)ရက် ကနေ (၂ လ) ကျောင်းကအချိန်ယူပါတယ်။ 
+            
+            ***4.*** စာရင်းသွင်းပြီးလို့ Immigration မှာ တုံးထုပြီး တာနဲ့ ကျောင်းသားအဖြစ် (၁၂ လ) (သို့) (၁၅ လ) အေးအေးဆေးဆေး နေလို့ရပါတယ်။ 
+            
+            ***5.*** ဘဏ်ကဒ်ဖွင့်ဖို့ ကျောင်းတွေကနေ စီစဉ်ပေးပါတယ်။
+            
+            ***6.***  ပထမဆုံးအကြိမ် ED Visa နဲ့ (၂၀၀၀), (၂) လ တစ်ကြိမ် (၁၉၀၀) နဲ့ Immigration ရုံးမှာ တုံးထုရပါတယ်။ တုံးထုဖို့အတွက် ကျောင်းက ထောက်ခံစာတွေ စီစဉ်ပေးပါလိမ့်မယ်။
+            
+            ***7.***  (၂ လ) တကြိမ် မသွားချင် မထုချင်ရင် North university of Chiang Mai မှာ တက်လို့ရပါတယ်။
+           
+            ***8.***  ကုန်ကျစရိတ်က လက်ခံတဲ့ကျောင်းအပေါ်မူတည်ပြီး တစ်နှစ်ကို ဘတ် ၄၅၀၀၀ ကနေ ၅၈၀၀၀ ဘတ် ထိ ရှိပါတယ် ။`,
+          },
+        ],
+      },
       food: {
         suggestions: [
           {

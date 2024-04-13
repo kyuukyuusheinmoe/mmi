@@ -5,6 +5,7 @@ export default {
   hello: 'မင်္ဂလာပါ',
   title: 'ခေါင်းစဥ်',
   accomodation: 'နေရာထိုင်ခင်း',
+  education: 'ပညာရေး',
   health: 'ကျန်းမာရေး',
   food: 'အစားအသောက်',
   immigration: 'လူဝင်မှုကြီးကြပ်ရေး',

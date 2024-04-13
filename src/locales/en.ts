@@ -5,6 +5,7 @@ export default {
   hello: 'Hello',
   title: 'Title',
   food: 'Food',
+  education: 'Education',
   health: 'Health',
   immigration: 'Immigration',
   accomodation: 'Accomodation',

@@ -16,7 +16,7 @@ export default async function Home({
   const currentLocale = getCurrentLocale();
 
   return (
-    <div>
+    <>
       <div className="flex justify-between">
         <p>{t("hello")}</p>
         <Switch />
@@ -28,6 +28,6 @@ export default async function Home({
           category={category || "accomodation"}
         />
       </Provider>
-    </div>
+    </>
   );
 }
