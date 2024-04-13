@@ -2,11 +2,14 @@ import React from "react";
 import { countryMapper } from "../constants/CountryList";
 import IconButton from "@/components/IconButton";
 import { basicNeedsIcons } from "./IconMappers";
-import Link from "next/link";
-import { SuggestionCard } from "@/components/Cards";
-import { SuggestionCardProps } from "@/components/Cards/types";
+import { ReferenceCard, SuggestionCard } from "@/components/Cards";
+import {
+  ReferenceCardProps,
+  SuggestionCardProps,
+} from "@/components/Cards/types";
+import { getCurrentLocale, getI18n } from "@/locales/server";
 
-const CountryInformation = ({
+const CountryInformation = async ({
   countryCode,
   category,
 }: {
@@ -15,15 +18,20 @@ const CountryInformation = ({
 }) => {
   const countryInfo = countryMapper[countryCode as string];
 
-  const references = countryInfo?.categories[category]?.refs;
-  const suggestions = countryInfo?.categories[category]?.suggestions;
+  const countryCategory = countryInfo?.categories[category];
 
-  const checkpoints = countryInfo?.categories[category]?.checkPoints;
+  const references = countryCategory?.refs;
+  const suggestions = countryCategory?.suggestions;
+
+  const checkpoints = countryCategory?.checkPoints;
+
+  const currentLocale = getCurrentLocale();
+  const t = await getI18n();
 
   return (
     <div className="grid gap-y-4">
       <h2 className="text-xl"> {countryInfo?.name}</h2>
-      <div className="flex flex-nowrap gap-2 overflow-scroll">
+      <div className="flex flex-nowrap gap-2 overflow-scroll no-scrollbar">
         {Object?.keys(countryInfo?.categories)?.map((k) => (
           <IconButton
             key={k}
@@ -34,6 +42,7 @@ const CountryInformation = ({
         ))}
       </div>
       <div className="">
+        <h3 className="text-lg font-bold">{t("suggestions")}</h3>
         <ul>
           {suggestions?.map(
             (sug: Omit<SuggestionCardProps, "serialNo">, index: number) => (
@@ -43,28 +52,24 @@ const CountryInformation = ({
         </ul>
       </div>
       <div>
-        <h3 className="text-lg"> Check Points</h3>
+        <h3 className="text-lg font-bold">{t("checkpoints")}</h3>
         <ul>
-          {checkpoints?.map((cp: string, index: number) => (
+          {checkpoints?.[currentLocale]?.map((cp: string, index: number) => (
             <li key={index} className="text-sm gap-x-1 flex items-baseline">
-              <i className="fa fa-square" aria-hidden="true"></i>
+              <i className="fa fa-check" aria-hidden="true"></i>
               {cp}
             </li>
           ))}
         </ul>
       </div>
-      <div>
-        <h3 className="text-lg"> References</h3>
-        <ul>
-          {references?.map(
-            (ref: { label: string; url: string }, index: number) => (
-              <li key={index} className="italic text-sm">
-                <Link href={ref.url} target="blank">
-                  {ref.label}
-                </Link>
-              </li>
-            )
-          )}
+      <div className=" overflow-scroll no-scrollbar">
+        <h3 className="text-lg font-bold">{t("refs")}</h3>
+        <ul className="flex flex-nowrap gap-2">
+          {references?.map((ref: ReferenceCardProps, index: number) => (
+            <li key={index} className="text-sm">
+              <ReferenceCard {...ref} />
+            </li>
+          ))}
         </ul>
       </div>
     </div>

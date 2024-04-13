@@ -5,3 +5,11 @@ export type SuggestionCardProps = {
     header: string;
     content?: string;
   };
+
+export type ReferenceCardProps = {
+  name: string;
+  description: string;
+  imageUrl?: string;
+  url: string;
+  tags: string[]
+}

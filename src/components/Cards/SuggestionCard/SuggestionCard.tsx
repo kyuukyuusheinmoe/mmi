@@ -12,7 +12,6 @@ const SuggestionCard = ({
 }: SuggestionCardProps) => {
   return (
     <div className="p-2 w-fit">
-      <h3 className="text-lg"> {`Suggestion - ${serialNo}`}</h3>
       <div className="flex items-center gap-2">
         {author ? <StringAvatar name={author} /> : <></>}
         <div>

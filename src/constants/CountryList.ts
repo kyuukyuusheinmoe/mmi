@@ -10,8 +10,10 @@ export const countryMapper: { [key: string]: any } = {
     categories: {
       accomodation: {
         refs: [
-          { label: 'RentHub', url: 'https://www.renthub.in.th/' },
-          { label: 'AirBnb', url: 'https://www.airbnb.com/thailand/stays' },
+          { name: 'RentHub', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], url: 'https://www.renthub.in.th/' },
+          { name: 'AirBnb', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], url: 'https://www.airbnb.com/thailand/stays' },
+          { name: 'PropertyScout', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], url: 'https://www.airbnb.com/thailand/stays' },
+        
         ],
         suggestions: [
           {
@@ -21,9 +23,14 @@ export const countryMapper: { [key: string]: any } = {
             content: ``,
           },
         ],
-        checkPoints: [
-          'Check electricity and water bills that could be quite expensive when landloard define it rather than the goverment rate',
-        ],
+        checkPoints: {en: [
+          'Electricity and water bills that could be quite expensive when landloard define it rather than the goverment rate',
+          'Location should be near to the BTS or MRT, if not you may use the transit that can cost more than renting a better location '
+        ], 
+        my: [
+          'အိမ်ငှား လျှင် လျှပ်စစ်မီး မီတာ ေဘလ် နှင့် ေရ မီတာ ေဘလ် သည် အိမ်ရှင် ကသတ်မှတ် ထားေသာ နှုန်းများ က အစိုးရသတ်မှတ်ချက် ေသာ ေစျး ထက် ပိုနိုင် ေသာ ေကြာင့် ေစျးနှုန်များ းကို ေသချာစွာ ေမးမြန်းသင့်ပါတ ယ်။ ',
+          'အိမ်တည် ရှိေသာ ေနရာ သည် BTS, MRT စ ေသာ ရထား ဘူတာ များနှင့်  လမ်းေလျှာက်နိုင် ေသာ အကွာ ထက် ေဝး ေန ပါက ဘူတာသို့သွားလျှင် ဆိုင်ကယ် (သို့) တုတ်တုတ် ငှား ရမ်းလျှင် ေနထိုင်စရိတ် သည် သတ်မှတ်ထား ေသာ နှုန်းထက် ပိုနိုင်ပါတယ်။ '
+        ]},
       },
       education: {
         suggestions: [
@@ -154,9 +161,6 @@ export const countryMapper: { [key: string]: any } = {
         ]
       },
       immigration: {
-        ref: [
-          'https://yangon.thaiembassy.org/en/page/do-i-need-a-visa?menu=5d7d27c515e39c2e64001ff4',
-        ],
         suggestions: [
           {
             author: 'Chuue Chuue',
@@ -253,9 +257,6 @@ export const countryMapper: { [key: string]: any } = {
       },
       education: { suggestions: [] },
       immigration: {
-        ref: [
-          'https://yangon.thaiembassy.org/en/page/do-i-need-a-visa?menu=5d7d27c515e39c2e64001ff4',
-        ],
         suggestions: [
           {
             author: 'Burmese House',

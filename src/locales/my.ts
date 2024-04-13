@@ -9,4 +9,7 @@ export default {
   health: 'ကျန်းမာရေး',
   food: 'အစားအသောက်',
   immigration: 'လူဝင်မှုကြီးကြပ်ရေး',
+  suggestions: 'အကြံပြုချက်များ',
+  refs: 'ကိုးကား ချက်များ',
+  checkpoints: 'သတိထားရမည့် အချက်များ',
 } as const;

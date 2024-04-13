@@ -9,4 +9,7 @@ export default {
   health: 'Health',
   immigration: 'Immigration',
   accomodation: 'Accomodation',
+  suggestions: 'Suggestions',
+  refs: 'References',
+  checkpoints: 'Check Points',
 } as const;
