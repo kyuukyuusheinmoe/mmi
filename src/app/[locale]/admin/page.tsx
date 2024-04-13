@@ -1,8 +1,7 @@
-import React from 'react';
-import MarkdownEditor from '@/app/containers/MarkdownEditor';
+import React from "react";
 
 const Admin = () => {
-  return <MarkdownEditor />;
+  return <></>;
 };
 
 export default Admin;
