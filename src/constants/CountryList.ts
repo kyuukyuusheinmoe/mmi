@@ -146,11 +146,58 @@ export const countryMapper: { [key: string]: any } = {
             
             * Environmental Management and Renewable Energy`,
           },
+          {
+            author: 'Bangkok Connection',
+            address: `Thailand`,
+            header: `ဘာကြောင့်ပြန်လွှတ်ခံရတာပါလဲ ?`,
+            content: `
+            ၂လဗီဇာ TR60 / 14 Days Free ဗီဇာများဟာ အလည်အပတ် ဗီဇာ ၊ Tourist Visa သာဖြစ်ပြီး ၊ လည်မယ် ၊ ပတ်မယ် ၊ Shopping ထွက်မယ်ဆိုတဲ့ ဗီဇာအမျိုးအစားဖြစ်ပါတယ် ။ ကျွန်တော်တို့နိုင်ငံရဲ့အခြေအနေအရ 90% ဟာ ၀င်လာပြီဆိုရင် အခြေချဖို့ဆိုတဲ့ ရည်ရွယ်ချက်ရှိနေတယ်ဆိုတာ သိရှိထားပြီးသားဖြစ်တဲ့ Immigration Officer များအတွက် စစ်ဆေးမေးမြန်းခြင်းပြုလုပ်ကာ ပြန်လွှတ်ခြင်းကိုပြုလုပ်တာဟာ ကိုယ့်ရဲ့ ရည်ရွယ်ချက်ဟာ သူတို့ရဲ့ ဗီဇာခွင့်ပြုချက်နဲ့ မကိုက်ညီမှုကြောင့်ဖြစ်ပါတယ်။
+            
+            **ဘယ်လိုဆောင်ရွက်ရမလဲ ?**
+            Tourist Visa သို့မဟုတ် Visa Free နဲ့လာတာဖြစ်တဲ့အတွက် Tourist ကဲ့သို့ အစီအစဉ်အားလုံးရှိထားရပါမယ်ခင်ဗျာ ၊ Hotel Booking , Return Ticket , Show Money နဲ့ မေးမြန်းခံရချိန်ဖြစ်ပါက Travel Plan ကိုသေချာနားလည်အောင်ရှင်းပြနိုင်ခဲ့ပါက Long Term Visa တစ်ခုခုမရှိထားခဲ့ရင် ၁၀၀% ၀င်ခွင့်ရရှိမှာဖြစ်ပါတယ်။
+            
+            စစ်ဆေးမေးမြန်းခံရခြင်းဟာ လာရောက်သူများရဲ့ 10% ခန့်သာကံဆိုးချိန်မှာ ကြုံတွေ့ရတာကြောင့် လူတိုင်းစစ်ဆေးခံရတယ်လို့မဆိုလိုပါဘူးခင်ဗျာ ။ အများစုဟာ အဆင်ပြေပြေ၀င်ရောက်နိုင်လျက်ရှိနေပါတယ်။
+            
+            Immigration Pass ဟာလူတိုင်းအတွက်မလိုအပ်တာကြောင့် ကိုယ်တိုင်ဖြေရှင်းနိုင်ရန် ဖော်ပြပေးလိုက်ရပါတယ်ခင်ဗျာ ။ အားလုံးပဲအဆင်ပြေကြပါစေကြောင်း ဆုတောင်းပေးလျက်ရှိပါတယ်။
+            
+            **မြန်မာပြည်လေဆိပ်လိုအပ်ချက်များ**
+            
+            ၁၊ မှတ်ပုံတင်
+            
+            ၂၊ Passport
+            
+            ၃၊ အသွားလက်မှတ်
+            
+            ၄၊ အပြန်လက်မှတ် (Booking / Confirmed)
+            
+            ၅၊ Hotel Booking
+            
+              
+            
+            **ထိုင်းလေဆိပ်လိုအပ်ချက်များ**
+            
+            ၁၊ Passport
+            
+            ၂၊ Hotel Booking (Confirmed)
+            
+            အိမ်စာချုပ်ဖြစ်ပါက လတို စာချုပ်များသာပြသလို့ကောင်းပါသည် ။
+            
+            ၃၊ Return Ticket (Confirmed) တို့လိုအပ်မည်ဖြစ်ပါတယ် ။`
+          }
         ],
         refs: [
-          {id: 1, name: 'BizHub Myanmar', imageUrl: "/assets/thai/bizhub.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Education'], source: 'https://www.facebook.com/bizhub.mm?mibextid=ZbWKwL' },
+          {id: 1, name: 'BizHub Myanmar', imageUrl: "/assets/thai/bizhub.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Visa'], source: 'https://www.facebook.com/bizhub.mm?mibextid=ZbWKwL' },
+          {id: 2, name: 'Bangkok Connection', imageUrl: "/assets/thai/bkkConnection.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Visa'], source: 'https://www.facebook.com/bkkairportconnection?mibextid=ZbWKwL' },
+        
         ],
-      },
+      }, 
+        food: {
+          refs: [
+            {id: 1, name: 'Khaing Khaing Kyaw Thailand', imageUrl: "/assets/thai/kkkyaw.jpg", description: ' A well known Myanmar Food Restaurant', tags: ['Myanmar Food', 'Bangkok'], source: 'https://www.facebook.com/KhaingKhaingKyawThailand?mibextid=ZbWKwL' },
+            {id: 2, name: 'Kitchen Mandaly', imageUrl: "/assets/thai/kitchenMdy.jpg", description: ' A well known Myanmar Food Restaurant', tags: ['Myanmar Food', 'Chiang Mai'], source: 'https://www.facebook.com/profile.php?id=100070085703740&mibextid=ZbWKwL' },
+          
+          ],
+      }
     },
   },
   vn: {
@@ -273,35 +320,8 @@ export const countryMapper: { [key: string]: any } = {
     },
   },
   kh: {
-    name: 'Vietnam',
+    name: 'Cambodia',
     categories: {
-      accomodation: {
-        refs: [
-          {id: 1, label: 'RentHub', source: 'https://www.renthub.in.th/' },
-          {id: 2, label: 'AirBnb', source: 'https://www.airbnb.com/thailand/stays' },
-        ],
-        suggestions: ['', ''],
-        checkPoints: [
-          'Check electricity and water bills that could be quite expensive when landloard define it rather than the goverment rate',
-        ],
-      },
-      food: {
-        suggestions: [
-          {
-            key: 'popular',
-            reasons: ['cheap', 'fresh'],
-          },
-        ],
-      },
-      health: {
-        suggestions: [
-          {
-            key: 'popular',
-            reasons: ['cheap', 'good service'],
-          },
-        ],
-      },
-      education: { suggestions: [] },
       immigration: {
         suggestions: [
           {
