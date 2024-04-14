@@ -7,9 +7,11 @@ export type SuggestionCardProps = {
   };
 
 export type ReferenceCardProps = {
+  id:number;
   name: string;
   description: string;
   imageUrl?: string;
   url: string;
+  source: string;
   tags: string[]
 }

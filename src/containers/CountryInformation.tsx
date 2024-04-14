@@ -31,7 +31,12 @@ const CountryInformation = async ({
 
   return (
     <div className="grid gap-y-4">
-      <h2 className="text-xl mt-2"> {t(countryInfo.name, { key: null })}</h2>
+      <div className="mt-4 flex justify-between items-center">
+        <h2 className="text-xl mt-2"> {t(countryInfo.name, { key: null })}</h2>
+        <button className="border-[0.1px] bg-red-300 rounded-md shadow-lg p-2">
+          <i className="fa fa-plus "> </i> {" Be a contributor "}
+        </button>
+      </div>
       <div className="flex flex-nowrap gap-2 overflow-scroll no-scrollbar">
         {Object?.keys(countryInfo?.categories)?.map((k) => (
           <IconButton
@@ -69,11 +74,19 @@ const CountryInformation = async ({
           seeAll={`/${countryCode}/${category}/refs`}
         />
         <ul className="flex flex-nowrap gap-2">
-          {references?.map((ref: ReferenceCardProps, index: number) => (
-            <li key={index} className="text-sm">
-              <ReferenceCard {...ref} />
-            </li>
-          ))}
+          {references?.map(
+            (
+              ref: Omit<ReferenceCardProps, "url">,
+              index: number
+            ) => (
+              <li key={index} className="text-sm">
+                <ReferenceCard
+                  {...ref}
+                  url={`/${countryCode}/${category}/refs/${ref.id}`}
+                />
+              </li>
+            )
+          )}
         </ul>
       </div>
     </div>

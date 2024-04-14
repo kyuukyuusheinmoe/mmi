@@ -10,9 +10,9 @@ export const countryMapper: { [key: string]: any } = {
     categories: {
       accomodation: {
         refs: [
-          { name: 'RentHub', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], url: 'https://www.renthub.in.th/' },
-          { name: 'AirBnb', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], url: 'https://www.airbnb.com/thailand/stays' },
-          { name: 'PropertyScout', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], url: 'https://www.airbnb.com/thailand/stays' },
+          {id: 1, name: 'RentHub', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.renthub.in.th/' },
+          {id: 2, name: 'AirBnb', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
+          {id: 3, name: 'PropertyScout', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
         
         ],
         suggestions: [
@@ -171,8 +171,8 @@ export const countryMapper: { [key: string]: any } = {
       },
       food: {
         refs: [
-          { name: 'Dee Dee - Myanmar Food in Vietnam', imageUrl: "/assets/vietnam/food/DeeDee.jpg", description: '', tags: ['Myanmar Food'], url: 'https://www.facebook.com/profile.php?id=61553075423909&mibextid=ZbWKwLg' },
-          { name: 'WOK AND POT - Pork Sticks and Hot Pot', imageUrl: "/assets/vietnam/food/WokPot.jpg", description: '', tags: ['Myanmar Food'], url: 'https://www.facebook.com/WOKandPOTVN?mibextid=ZbWKwL' },
+          { id: 1, name: 'Dee Dee - Myanmar Food in Vietnam', imageUrl: "/assets/vietnam/food/DeeDee.jpg", description: '', tags: ['Myanmar Food'], source: 'https://www.facebook.com/profile.php?id=61553075423909&mibextid=ZbWKwLg' },
+          { id: 2, name: 'WOK AND POT - Pork Sticks and Hot Pot', imageUrl: "/assets/vietnam/food/WokPot.jpg", description: '', tags: ['Myanmar Food'], source: 'https://www.facebook.com/WOKandPOTVN?mibextid=ZbWKwL' },
         ],
       },
       health: {
@@ -302,8 +302,8 @@ export const countryMapper: { [key: string]: any } = {
     categories: {
       accomodation: {
         refs: [
-          { label: 'RentHub', url: 'https://www.renthub.in.th/' },
-          { label: 'AirBnb', url: 'https://www.airbnb.com/thailand/stays' },
+          {id: 1, label: 'RentHub', source: 'https://www.renthub.in.th/' },
+          {id: 2, label: 'AirBnb', source: 'https://www.airbnb.com/thailand/stays' },
         ],
         suggestions: ['', ''],
         checkPoints: [
