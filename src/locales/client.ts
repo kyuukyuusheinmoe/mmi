@@ -20,9 +20,9 @@ export const {
   },
   {
     // Uncomment to set base path
-    // basePath: '/base',
+    basePath: '/en?country=vn',
     // Uncomment to use custom segment name
-    // segmentName: 'locale',
+    segmentName: 'locale',
     // Uncomment to set fallback locale
     // fallbackLocale: en,
   }

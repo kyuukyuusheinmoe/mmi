@@ -53,22 +53,6 @@ export const countryMapper: { [key: string]: any } = {
           {id: 1, name: 'Travel Masters', imageUrl: "/assets/thai/travelmasters.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Education'], source: 'https://www.facebook.com/profile.php?id=100064029276063&mibextid=ZbWKwL' },
         ],
       },
-      food: {
-        suggestions: [
-          {
-            key: 'popular',
-            reasons: ['cheap', 'fresh'],
-          },
-        ],
-      },
-      health: {
-        suggestions: [
-          {
-            key: 'popular',
-            reasons: ['cheap', 'good service'],
-          },
-        ],
-      },
       immigration: {
         suggestions: [
           {
@@ -172,23 +156,6 @@ export const countryMapper: { [key: string]: any } = {
   vn: {
     name: 'Vietnam',
     categories: {
-      accomodation: {
-        suggestions: ['', ''],
-      },
-      food: {
-        refs: [
-          { id: 1, name: 'Dee Dee - Myanmar Food in Vietnam', imageUrl: "/assets/vietnam/food/DeeDee.jpg", description: '', tags: ['Myanmar Food'], source: 'https://www.facebook.com/profile.php?id=61553075423909&mibextid=ZbWKwLg' },
-          { id: 2, name: 'WOK AND POT - Pork Sticks and Hot Pot', imageUrl: "/assets/vietnam/food/WokPot.jpg", description: '', tags: ['Myanmar Food'], source: 'https://www.facebook.com/WOKandPOTVN?mibextid=ZbWKwL' },
-        ],
-      },
-      health: {
-        suggestions: [
-          {
-            key: 'popular',
-            reasons: ['cheap', 'good service'],
-          },
-        ],
-      },
       education: {
         suggestions: [
           {
@@ -233,9 +200,11 @@ export const countryMapper: { [key: string]: any } = {
             `,
           },
         ],
-        checkpoints: [
-              `Vietnam မှာ ကျောင်းတက်ပြီး အလုပ်လုပ်ချင်တဲ့ သူတွေ အတွက် Vietnam စကား လိုအပ်ပါတယ်`
-        ]
+        checkPoints: {en: [
+              `The ones who want to work while attending university need Vietnamese Language.`
+        ], my: [
+          `ဗီယက်နမ် မှာ ကျောင်းတက်ပြီး အလုပ်လုပ်ချင်တဲ့ သူတွေ အတွက် Vietnam စကား လိုအပ်ပါတယ်`
+    ]}
       },
       immigration: {
         suggestions: [

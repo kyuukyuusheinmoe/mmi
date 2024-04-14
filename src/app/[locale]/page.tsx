@@ -1,4 +1,4 @@
-import { getI18n, getCurrentLocale } from "../../locales/server";
+import { getI18n, getCurrentLocale } from "@/locales/server";
 import { defaultCountry } from "@/constants/UIConstants";
 import CountryInformation from "@/containers/CountryInformation";
 import CountryList from "@/containers/CountryList";
