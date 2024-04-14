@@ -8,7 +8,7 @@ import {
   ChatBubbleOvalLeftIcon,
   StarIcon,
 } from "@heroicons/react/24/outline";
-import { HeartIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 const Page = ({
   params,
@@ -19,8 +19,6 @@ const Page = ({
     id: string;
   };
 }) => {
-  console.log("xxx params ", params);
-
   const { country, category, id } = params;
 
   const refs = countryMapper[country]?.categories?.[category]?.refs;
@@ -29,7 +27,7 @@ const Page = ({
     (ref: Omit<ReferenceCardProps, "url">) => ref.id === +id
   );
 
-  const { imageUrl, name, description } = refInfo;
+  const { imageUrl, name, description, source } = refInfo;
 
   return (
     <div>
@@ -43,7 +41,12 @@ const Page = ({
           />
         </div>
         <div>
-          <h5 className="text-sm line-clamp-2"> {name}</h5>
+          <Link
+            href={source}
+            className="text-lg line-clamp-2 text-blue-500"
+            target="blank">
+            {`${name} >>`}
+          </Link>
           <p className="text-gray-500">{description}</p>
         </div>
       </div>

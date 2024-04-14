@@ -10,9 +10,9 @@ export const countryMapper: { [key: string]: any } = {
     categories: {
       accomodation: {
         refs: [
-          {id: 1, name: 'RentHub', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.renthub.in.th/' },
-          {id: 2, name: 'AirBnb', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
-          {id: 3, name: 'PropertyScout', imageUrl: "/assets/agents/sompo.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
+          {id: 1, name: 'RentHub', imageUrl: "/assets/thai/renthub.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.renthub.in.th/' },
+          {id: 2, name: 'AirBnb', imageUrl: "/assets/thai/airbnb.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
+          {id: 3, name: 'PropertyScout', imageUrl: "/assets/thai/ppScout.svg", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
         
         ],
         suggestions: [
@@ -48,6 +48,9 @@ export const countryMapper: { [key: string]: any } = {
            
             ***8.***  ကုန်ကျစရိတ်က လက်ခံတဲ့ကျောင်းအပေါ်မူတည်ပြီး တစ်နှစ်ကို ဘတ် ၄၅၀၀၀ ကနေ ၅၈၀၀၀ ဘတ် ထိ ရှိပါတယ် ။`,
           },
+        ],
+        refs: [
+          {id: 1, name: 'Travel Masters', imageUrl: "/assets/thai/travelmasters.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Education'], source: 'https://www.facebook.com/profile.php?id=100064029276063&mibextid=ZbWKwL' },
         ],
       },
       food: {
@@ -159,6 +162,9 @@ export const countryMapper: { [key: string]: any } = {
             
             * Environmental Management and Renewable Energy`,
           },
+        ],
+        refs: [
+          {id: 1, name: 'BizHub Myanmar', imageUrl: "/assets/thai/bizhub.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Education'], source: 'https://www.facebook.com/bizhub.mm?mibextid=ZbWKwL' },
         ],
       },
     },

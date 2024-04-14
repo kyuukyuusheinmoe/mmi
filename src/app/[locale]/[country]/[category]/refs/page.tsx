@@ -38,7 +38,10 @@ const Page = async ({
         <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
           {references?.map((ref: ReferenceCardProps, index: number) => (
             <li key={index} className="text-sm">
-              <ReferenceCard {...ref} />
+              <ReferenceCard
+                {...ref}
+                url={`/${country}/${category}/refs/${ref.id}`}
+              />
             </li>
           ))}
         </ul>
