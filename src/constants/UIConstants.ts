@@ -1,5 +1,5 @@
-export const basicNeeds = ['accomodations', 'food', 'health', 'immigration'];
+export const basicNeeds = ['immigration','accomodations', 'food', 'health'];
 
 export const defaultCountry = 'th';
 
-export const defaultCategory = 'accomodations';
+export const defaultCategory = 'immigration';

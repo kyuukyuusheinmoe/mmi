@@ -15,4 +15,11 @@ export default {
   suggestions: 'အကြံပြုချက်များ',
   refs: 'ကိုးကား ချက်များ',
   checkpoints: 'သတိထားရမည့် အချက်များ',
+  official_announcements: 'တရားဝင်ကြေငြာချက်များ',
+  required_documents: 'လိုအပ်သောစာရွက်စာတမ်းများ',
+  visa_fee: 'ဗီဇာဆောင်ရွက်ခ',
+  visa_validity: 'ဗီဇာသက်တမ်း',
+  visa_period: 'နေထိုင့်ခွင့်ကာလ',
+
+
 } as const;

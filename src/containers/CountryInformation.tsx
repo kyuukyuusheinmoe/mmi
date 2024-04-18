@@ -2,8 +2,13 @@ import React from "react";
 import { countryMapper } from "../constants/CountryList";
 import IconButton from "@/components/IconButton";
 import { basicNeedsIcons } from "./IconMappers";
-import { ReferenceCard, SuggestionCard } from "@/components/Cards";
 import {
+  ReferenceCard,
+  SuggestionCard,
+  OfficialDocumentCard,
+} from "@/components/Cards";
+import {
+  OfficialDocumentCardProps,
   ReferenceCardProps,
   SuggestionCardProps,
 } from "@/components/Cards/types";
@@ -17,6 +22,9 @@ const CountryInformation = async ({
   countryCode: string;
   category: string;
 }) => {
+  const t = await getI18n();
+  const currentLocale = getCurrentLocale();
+
   const countryInfo = countryMapper[countryCode as string];
 
   const countryCategory = countryInfo?.categories[category];
@@ -26,8 +34,7 @@ const CountryInformation = async ({
 
   const checkpoints = countryCategory?.checkPoints;
 
-  const currentLocale = getCurrentLocale();
-  const t = await getI18n();
+  const official_announcements = countryCategory?.official_announcements;
 
   return (
     <div className="grid gap-y-4">
@@ -46,6 +53,19 @@ const CountryInformation = async ({
             url={`?country=${countryCode}&category=${k}`}
           />
         ))}
+      </div>
+      <div className="">
+        <h3 className="text-lg font-bold">{t("official_announcements")}</h3>
+        <ul>
+          {official_announcements?.map(
+            (
+              doc: { [key: string]: OfficialDocumentCardProps },
+              index: number
+            ) => (
+              <OfficialDocumentCard {...doc?.[currentLocale]} key={index} />
+            )
+          )}
+        </ul>
       </div>
       <div className="">
         <h3 className="text-lg font-bold">{t("suggestions")}</h3>
@@ -75,10 +95,7 @@ const CountryInformation = async ({
         />
         <ul className="flex flex-nowrap gap-2">
           {references?.map(
-            (
-              ref: Omit<ReferenceCardProps, "url">,
-              index: number
-            ) => (
+            (ref: Omit<ReferenceCardProps, "url">, index: number) => (
               <li key={index} className="text-sm">
                 <ReferenceCard
                   {...ref}

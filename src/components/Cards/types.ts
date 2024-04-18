@@ -15,3 +15,17 @@ export type ReferenceCardProps = {
   source: string;
   tags: string[]
 }
+
+export type OfficialDocumentDetailsProps = {
+  required_documents?: string;
+  visa_fee?: string;
+  visa_validity?: string;
+  visa_period?: string;
+}
+
+export type OfficialDocumentCardProps = {
+    author: string;
+    address?: string;
+    header: string;
+    details?: OfficialDocumentDetailsProps;
+}

@@ -54,6 +54,65 @@ export const countryMapper: { [key: string]: any } = {
         ],
       },
       immigration: {
+        official_announcements: [{
+          en: {
+            author: 'Royal Thai Embassy',
+            address: `Yangon, Myanmar`,
+            header: `Tourist Visa (TR)`,
+            details: {
+              required_documents: `1.  Original passport with at least six months of remaining validity and blank visa pages.
+
+              2.  Both original bank statement and original bank book with at least 2 million kyats or equivalent amount. 
+
+                  (Only those who are under 18 years old, parents or guardian’s bank statements are acceptable. We will  
+                  consider with original household registration, original ID cards and original birth certificate)
+
+              3.  Present the completed and signed “Visa Application Form”
+
+              4.  A reservation of round-trip flight ticket (over 14 days)
+
+              5.  Present hotel reservation, applicants must have the proof of booking over 14 days OR for lease  
+                  agreement, the agreement had to be signed from both sides and had to attached ID of the owner of the property and deed of the property OR for the owner of the condominium they have to present the proof of ownership of that condominium.
+                  
+                  _**The consular officer reserves the right to request additional documents as deemed necessary**_`,
+                  visa_fee: `40 USD (single entry)
+              
+                    200 USD (multiple entries)`,
+              visa_validity: `3 months  (Duration of stay in Thailand is 60 days from the date of arrival and the visa validity is 3 months from the date of issue.)
+              
+              6 months (multiple entries)`,
+              visa_period: `Upon arrival, travelers with a TR visa will be permitted to stay in Thailand for 60 days maximum. Those who wish to stay longer or change their type of visa must apply for permission at the Office of Immigration Bureau located at Government Center B, Chaengwattana Soi 7, Laksi, Bangkok 10210, Tel 0-2141-9889 (or at [http://www.immigration.go.th](http://www.immigration.go.th/)). The extension of stay as well as the change of certain types of visas is solely at the discretion of the immigration officer.
+
+              `,
+            }
+          },
+          my: {
+            author: 'ထိုင်းသံရုံး',
+            address: `ရန်ကုန်, မြန်မာ`,
+            header: `ခရီးသွား ဗီဇာ`,
+            details: {
+              required_documents: `၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိေသာ နိုင်ငံကူး လက်မှတ် နှင့် ဗီဇာရိုက်နှိပ် ရန် စာရွက်လွတ် များ ကျန်ရှိရမည် ။ .
+
+                         ၂။ အနည်းဆုံး  မြန်မာကျပ် ေငွ သိန်း (၂၀) နှင့် ညီမျှ ေသာ ပမာဏ ရှိသည့် ဘဏ် စာရင်း နှင့် မူရင်း ဘဏ်စာအုပ်။
+              (အသက် ၁၈ နှစ် ေအာက် ရှိေသာ ေလျှာက်ထားသူများ သည် အုပ်ထိန်းသူ ပိုင်ဆိုင် ေသာ ဘဏ်စာရင်း နှင့် ဘဏ်စာအုပ် သုံး၍ ေလျှာက်ထားခွင့် ရှိသည်။ ထိုအချက်လက်များကို မူရင်းသန်း ေခါင်စာရင်း ၊ မှတ်ပုံတင် နှင့် ေမွးစာရင်း တို့နှင့် စစ် ေဆးပီး ေလျှာက်ထားခွင့် သုံးသပ်ပါမည်။)
+                  
+              ၃။  သတ်မှတ် ထား ေသာ ဗီဇာ ေလျှာက်လွှာ အပြည့်အစုံ ဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီး ရန်။
+              
+              ၄။ အသွား အပြန် ေလယာဉ် လက်မှတ် (အပြန်လက်မှတ် သည် အသွားလက်မှတ်နှင့် ၁၄ရက် ထက် ပို ေသာ ရက်တွင် ဖြစ်ရပါမည်)
+
+              ၅။  ေနထိုင်ရန် အတွက် ဟိုတယ် booking (သို့မဟုတ်) လက်မှတ် ထိုးပီးထား ေသာ အိမ်စာချုပ် (၁၄ ရက်ထက်ပို၍ စီစဉ်ထားရန်)၊ အိမ်ပိုင်ရှင် အဖြစ်လက်မှတ်ထိုး သူသည် ပိုင်ဆိုင်မှု အပြည့်စုံ ပြနိုင် ေသာ သူဖြစ်ရပါမည်။
+              
+              _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်းများ တောင်းခံပိုင်ခွင့်ရှိသည်။**_`,
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၄၀ (ဝင်ခွင့် တစ်ကြိမ်)
+
+              အမေရိကန်ဒေါ်လာ ၂၀၀ (ဝင်ခွင့် တစ်ကြိမ်ထပ်ပို၍)`,
+              visa_validity: `၃ လ။ (ထိုင်းနိုင်ငံတွင်နေထိုင်ရန်ကြာချိန်သည် ဆိုက်ရောက်သည့်နေ့မှရက်ပေါင်း ၆၀ ဖြစ်ပြီး၊ ဗီဇာသက်တမ်းသည် ထုတ်ပေးသည့်နေ့မှ ၃လ အတွင်း သွားေရာက် ခွင့်ရှိသည်။)
+              
+              ၆ လ။ (တစ်ကြိမ်ထက် ပိုေသာ ဝင်ခွင့် များအတွက်)`,
+              visa_period: `ဆိုက်ရောက် ေသာေန့ေပါ်မူတည်၍ TR ဗီဇာဖြင့် ခရီးသွားများကို ထိုင်းတွင် ရက် 60 အများဆုံးနေထိုင်ခွင့်ပြုမည်ဖြစ်သည်။ ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`,
+            }
+          }
+        }],
         suggestions: [
           {
             author: 'BizHub Myanmar',
