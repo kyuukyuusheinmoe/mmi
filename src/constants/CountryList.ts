@@ -10,9 +10,9 @@ export const countryMapper: { [key: string]: any } = {
     categories: {
       accomodation: {
         refs: [
-          {id: 1, name: 'RentHub', imageUrl: "/assets/thai/renthub.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.renthub.in.th/' },
-          {id: 2, name: 'AirBnb', imageUrl: "/assets/thai/airbnb.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
-          {id: 3, name: 'PropertyScout', imageUrl: "/assets/thai/ppScout.svg", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
+          {id: 1, name: 'RentHub', imageUrl: "/assets/thai/accomodation/renthub.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.renthub.in.th/' },
+          {id: 2, name: 'AirBnb', imageUrl: "/assets/thai/accomodation/airbnb.png", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
+          {id: 3, name: 'PropertyScout', imageUrl: "/assets/thai/accomodation/ppScout.svg", description: ' A popular real estate platform with millions and brokers', tags: ['Real Estate'], source: 'https://www.airbnb.com/thailand/stays' },
         
         ],
         suggestions: [
@@ -50,7 +50,7 @@ export const countryMapper: { [key: string]: any } = {
           },
         ],
         refs: [
-          {id: 1, name: 'Travel Masters', imageUrl: "/assets/thai/travelmasters.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Education'], source: 'https://www.facebook.com/profile.php?id=100064029276063&mibextid=ZbWKwL' },
+          {id: 1, name: 'Travel Masters', imageUrl: "/assets/thai/visa/travelmasters.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Education'], source: 'https://www.facebook.com/profile.php?id=100064029276063&mibextid=ZbWKwL' },
         ],
       },
       immigration: {
@@ -245,15 +245,14 @@ export const countryMapper: { [key: string]: any } = {
           }
         ],
         refs: [
-          {id: 1, name: 'BizHub Myanmar', imageUrl: "/assets/thai/bizhub.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Visa'], source: 'https://www.facebook.com/bizhub.mm?mibextid=ZbWKwL' },
-          {id: 2, name: 'Bangkok Connection', imageUrl: "/assets/thai/bkkConnection.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Visa'], source: 'https://www.facebook.com/bkkairportconnection?mibextid=ZbWKwL' },
-        
+          {id: 1, name: 'BizHub Myanmar', imageUrl: "/assets/thai/visa/bizhub.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Visa'], source: 'https://www.facebook.com/bizhub.mm?mibextid=ZbWKwL' },
+          {id: 2, name: 'Bangkok Connection', imageUrl: "/assets/thai/visa/bkkConnection.jpg", description: ' A popular real estate platform with millions and brokers', tags: ['Visa'], source: 'https://www.facebook.com/bkkairportconnection?mibextid=ZbWKwL' },
         ],
       }, 
         food: {
           refs: [
-            {id: 1, name: 'Khaing Khaing Kyaw Thailand', imageUrl: "/assets/thai/kkkyaw.jpg", description: ' A well known Myanmar Food Restaurant', tags: ['Myanmar Food', 'Bangkok'], source: 'https://www.facebook.com/KhaingKhaingKyawThailand?mibextid=ZbWKwL' },
-            {id: 2, name: 'Kitchen Mandaly', imageUrl: "/assets/thai/kitchenMdy.jpg", description: ' A well known Myanmar Food Restaurant', tags: ['Myanmar Food', 'Chiang Mai'], source: 'https://www.facebook.com/profile.php?id=100070085703740&mibextid=ZbWKwL' },
+            {id: 1, name: 'Khaing Khaing Kyaw Thailand', imageUrl: "/assets/thai/food/kkkyaw.jpg", description: ' A well known Myanmar Food Restaurant', tags: ['Myanmar Food', 'Bangkok'], source: 'https://www.facebook.com/KhaingKhaingKyawThailand?mibextid=ZbWKwL' },
+            {id: 2, name: 'Kitchen Mandaly', imageUrl: "/assets/thai/food/kitchenMdy.jpg", description: ' A well known Myanmar Food Restaurant', tags: ['Myanmar Food', 'Chiang Mai'], source: 'https://www.facebook.com/profile.php?id=100070085703740&mibextid=ZbWKwL' },
           
           ],
       }
