@@ -20,5 +20,6 @@ export default {
   visa_fee: 'Visa Processing Fee',
   visa_validity: 'Validity of Visa',
   visa_period: 'Period of Stay',
+  visa_extension: 'Extension of Stay'
 
 } as const;

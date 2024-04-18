@@ -60,19 +60,20 @@ export const countryMapper: { [key: string]: any } = {
             address: `Yangon, Myanmar`,
             header: `Tourist Visa (TR)`,
             details: {
-              required_documents: `1.  Original passport with at least six months of remaining validity and blank visa pages.
+              required_documents: `**1.** Original passport with at least six months of remaining validity and blank visa pages.
 
-              2.  Both original bank statement and original bank book with at least 2 million kyats or equivalent amount. 
-
-                  (Only those who are under 18 years old, parents or guardian’s bank statements are acceptable. We will  
-                  consider with original household registration, original ID cards and original birth certificate)
-
-              3.  Present the completed and signed “Visa Application Form”
-
-              4.  A reservation of round-trip flight ticket (over 14 days)
-
-              5.  Present hotel reservation, applicants must have the proof of booking over 14 days OR for lease  
-                  agreement, the agreement had to be signed from both sides and had to attached ID of the owner of the property and deed of the property OR for the owner of the condominium they have to present the proof of ownership of that condominium.
+              **2.** Both original bank statement and original bank book with at least 2 million kyats or equivalent amount.
+              
+              (Only those who are under 18 years old, parents or guardian’s bank statements are acceptable. We will
+              
+              consider with original household registration, original ID cards and original birth certificate)
+              
+              **3.** Present the completed and signed “Visa Application Form”
+              
+              **4.** A reservation of round-trip flight ticket (over 14 days)
+              
+              **5.** Present hotel reservation, applicants must have the proof of booking over 14 days OR for lease
+              agreement, the agreement had to be signed from both sides and had to attached ID of the owner of the property and deed of the property OR for the owner of the condominium they have to present the proof of ownership of that condominium.
                   
                   _**The consular officer reserves the right to request additional documents as deemed necessary**_`,
                   visa_fee: `40 USD (single entry)
@@ -91,7 +92,7 @@ export const countryMapper: { [key: string]: any } = {
             address: `ရန်ကုန်, မြန်မာ`,
             header: `ခရီးသွား ဗီဇာ`,
             details: {
-              required_documents: `၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိေသာ နိုင်ငံကူး လက်မှတ် နှင့် ဗီဇာရိုက်နှိပ် ရန် စာရွက်လွတ် များ ကျန်ရှိရမည် ။ .
+              required_documents: `၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိေသာ နိုင်ငံကူး လက်မှတ် နှင့် ဗီဇာရိုက်နှိပ် ရန် စာရွက်လွတ် များ ကျန်ရှိရမည် ။
 
                          ၂။ အနည်းဆုံး  မြန်မာကျပ် ေငွ သိန်း (၂၀) နှင့် ညီမျှ ေသာ ပမာဏ ရှိသည့် ဘဏ် စာရင်း နှင့် မူရင်း ဘဏ်စာအုပ်။
               (အသက် ၁၈ နှစ် ေအာက် ရှိေသာ ေလျှာက်ထားသူများ သည် အုပ်ထိန်းသူ ပိုင်ဆိုင် ေသာ ဘဏ်စာရင်း နှင့် ဘဏ်စာအုပ် သုံး၍ ေလျှာက်ထားခွင့် ရှိသည်။ ထိုအချက်လက်များကို မူရင်းသန်း ေခါင်စာရင်း ၊ မှတ်ပုံတင် နှင့် ေမွးစာရင်း တို့နှင့် စစ် ေဆးပီး ေလျှာက်ထားခွင့် သုံးသပ်ပါမည်။)
@@ -110,6 +111,139 @@ export const countryMapper: { [key: string]: any } = {
               
               ၆ လ။ (တစ်ကြိမ်ထက် ပိုေသာ ဝင်ခွင့် များအတွက်)`,
               visa_period: `ဆိုက်ရောက် ေသာေန့ေပါ်မူတည်၍ TR ဗီဇာဖြင့် ခရီးသွားများကို ထိုင်းတွင် ရက် 60 အများဆုံးနေထိုင်ခွင့်ပြုမည်ဖြစ်သည်။ ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`,
+            }
+          }
+        },
+        {
+          en: {
+            author: 'Royal Thai Embassy',
+            address: `Yangon, Myanmar`,
+            header: `Non-Immigrant ED Visa`,
+            details: {
+              required_documents: `**1.** Passport or travel document with validity no less than 6 months  
+
+              **2.**  Visa application form completely filled out and signed  
+              
+              **3.** Recent 3.5 cm x 4.5 cm photograph of the applicant  
+
+              **4. Letter of Acceptance/Confirmation** from the school, university, training institution, or company in Thailand which must be typed in the school/company’s letterhead signed by an authorized person and a copy of school license or business registration. Copies of documents must be signed by an authorized person and affixed the seal.
+              
+              **5. For those who wish to study at elementary schools, high schools, and vocational institutions in Thailand** are required to submit a letter of certificate from related educational authorities of the Ministry of Education e.g. Provincial Education Office, Office of the Private Education Commission EXCEPT those who wish to study at international schools.  
+              
+              **6. For those who wish to study at university in Thailand** are required to submit police/criminal record from hosting country. 
+              
+              **7.** In case of an internship, a letter from the university in which the applicant is enrolled  
+              
+              **8.** Dependents of students (under 20 years of age) who have enrolled for a full-time, long-term educational course in Thailand are eligible to apply for a single-entry Non-Immigrant O visa. Required documents are the same as those required for a Non-Immigrant ED visa, plus proof of relationship (such as marriage certificate, birth certificate).
+              
+              _**The consular officer reserves the right to request additional documents as deemed necessary**_`,
+              visa_fee: `80 USD `,
+              visa_validity: `3 months`,
+              visa_period: `Travelers coming to Thailand with this type of visa will be permitted to stay in the Kingdom for a period not exceeding 90 days. Holders of this type of visa are entitled to stay in Thailand for a maximum period of 90 days. They may apply for an extension of stay at the Office of the Immigration Bureau and may be granted such extension for one year from the date of their first entry into Thailand.`,
+              visa_extension: `Those who wish to stay longer or may wish to change their type of visa must apply for permission at the Office of Immigration Bureau located at Government Complex Building B, Chaengwattana Soi 7, Laksi, Bangkok 10210, Tel 0-2141-9889 or [http://www.immigration.go.th](http://www.immigration.go.th/). The extension of stay as well as the change of certain types of visas is solely at the discretion of the immigration officer.`
+            }
+          },
+          my: {
+            author: 'ထိုင်းသံရုံး',
+            address: `ရန်ကုန်, မြန်မာ`,
+            header: `ပညာသင်များအတွက် ဗီဇာ`,
+            details: {
+              required_documents: `
+              ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိေသာ နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား အ ေထာက်အထား ။
+
+              ၂။ သတ်မှတ် ထား ေသာ ဗီဇာ ေလျှာက်လွှာ အပြည့်အစုံ ဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီး ရန်။
+              
+              ၃။ မကြာမီ က ရိုက်ထားသော ၃.၅ x ၄.၅ စင်တီမီတာ အရွယ်အစားရှိ ဓာတ်ပုံ။ 
+
+              ၄။ ထိုင်းနိုင်ငံရှိ  ေကျာင်း၊ တက္ကသိုလ်၊ သင်တန်းကျောင်း၊ ကုမ္ပဏီ စသည်တို့မှ လက်ခံစာ (သို့မဟုတ်) အတည်ပြုစာ များ နှင့် ၎င်းတို့တွင်  ေကျာင်း၊ ကုမ္မဏီ တံဆိပ်၊ သက်ဆိုင်ရာ လူကြီး၏ လက်မှတ်၊  ေကျာင်းလိုင်စင်၊ များပါရှိရပါမည်။ စာရွက်စာတမ်း မိတ္တူ များဖြစ်ပါက လည်း သက်ဆိုင် ရာ တာဝန်ရှိသူများ ၏ လက်မှတ်နှင့် စည်းတံဆိပ် များ ပါရှိမည်။
+              
+              ၅။ ထိုင်းနိုင်ငံရှိ မူလတန်းကျောင်းများ၊ အထက်တန်းကျောင်းများနှင့် အသက်မွေးဝမ်းကျောင်းကျောင်းများတွင် ပညာသင်ကြားလိုသူများသည် ပညာရေးဝန်ကြီးဌာန၏ သက်ဆိုင်ရာ ပညာရေးအာဏာပိုင်များထံမှ  ေထာက်ခံစာ ကို တင်ပြရမည်။ ဥပမာ ပြည်နယ်ပညာရေးမှူးရုံး၊ ပုဂ္ဂလိကပညာရေးကော်မရှင်ရုံး (နိုင်ငံတကာ ေကျာင်းသားများမှ လွဲ၍)
+              
+              
+              ၆။ တက္ကသိုလ် များတွင် ပညာသင်သူများ အတွက် အိမ်ရှင်နိုင်ငံမှ ရဲ/မှုခင်းမှတ်တမ်း များတင်သွင်း ရန် လိုအပ်သည်။
+              
+              ၇။ အလုပ်သင် များသည် တက် ေရာက်မည့် ေကျာင်း မှ စာရွက်စာတမ်းမျာ တင်သွင်းရမည်။
+              
+              ၈။ အသက် ၂၀  ေအာက် ေကျာင်းသားများ ၏ အုပ်ထိန်းသူ များ သည် ဝင်ခွင့် တကြိမ် ရှိေသာ Non-Immigrant O ဗီဇာ ေလျှာက်ထားခွင့် ရှိသည်။  အုပ်ထိန်းသူများ ဗီဇာေလျှာက်ထား ရာတွင် ေကျာင်းသား များအတွက် လိုအပ်သော စာရွက်စာ တမ်းများနှင့် အတူ ေတာ်စပ်မှု အ ထောက်အထားများ (လက်ထပ်စာချုပ် (သို့) မွေးစာရင်း)  ေပါင်း၍ တင်ပြရမည်။
+
+              _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်းများ တောင်းခံပိုင်ခွင့်ရှိသည်။**_`,
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၈၀`,
+              visa_validity: `၃ လ`,
+              visa_period: `ဤဗီဇာအမျိုးအစားကို ကိုင်ဆောင်ထားသူများသည် ထိုင်းနိုင်ငံတွင် ရက်ပေါင်း ၉၀ အတွင်း အများဆုံးနေထိုင်ခွင့်ရှိသည်။ ၎င်းတို့သည် လူဝင်မှုကြီးကြပ်ရေး ဗျူရိုရုံးတွင် နေထိုင်ခွင့် သက်တမ်းတိုးရန် လျှောက်ထားနိုင်ပြီး ထိုင်းနိုင်ငံသို့ ပထမဆုံး ဝင်ရောက်သည့်နေ့မှစ၍ တစ်နှစ်အထိ သက်တမ်းတိုးခွင့် ရနိုင်သည်။`,
+              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
+            }
+          }
+        },
+        {
+          en: {
+            author: 'Royal Thai Embassy',
+            address: `Yangon, Myanmar`,
+            header: `Non-Immigrant B Visa`,
+            details: {
+              required_documents: `**1.** Passport or travel document with validity not less than 6 months
+              
+              **2.** Visa application form completely filled out and signed 
+              
+              **3.** Recent 3.5 cm x 4.5 cm photograph of the applicant
+
+              **4.** Financial statement, including Bank statement or book bank 
+              
+              **5.** Business related documents as follows: 
+
+              **_Employment in Thailand_**  
+              
+              - A letter from the employer in Thailand, requesting the Royal Thai Embassy to issue appropriate visa for the applicant, indicating details of employment, including position, salary and length of contract. And a copy of Thai ID of the person signing the letter.  
+
+              - A work permit or an approval letter from the Department of Employment regarding the “WP3” form submitted on behalf of the applicant by the employer (Japanese nationals are exempted in accordance with JTEPA),  
+  
+              - Evidence of the applicant’s professional qualifications and work experience  
+  
+              - A work permit of the applicant’s previous employment or its certified copy (**compulsory for an applicant who had worked in Thailand**)  
+
+              - Copy of corporate documents e.g. 1) List of shareholders 2) Business registration and business license 3) Details of business operations 4) List of foreign employees, nationalities and positions 5) Address of the company 6) Balance sheet, statement of Income Tax and Business Tax (Por Ngor Dor 50 and Por Ngor Dor 30) of the latest year 7) Alien income tax return (Por Ngor Dor 91) and 8) Value-added tax registration (Por Por 20). _These documents must be signed by an authorized person and stamped with a company’s seal. A copy of Thai ID of the authorized person must also be submitted.
+              
+              
+              `,
+              visa_fee: `80 USD `,
+              visa_validity: `3 months`,
+              visa_period: `Travelers coming to Thailand with this type of visa will be permitted to stay in the Kingdom for a period not exceeding 90 days. Holders of this type of visa are entitled to stay in Thailand for a maximum period of 90 days. They may apply for an extension of stay at the Office of the Immigration Bureau and may be granted such extension for one year from the date of their first entry into Thailand.`,
+              visa_extension: `Those who wish to stay longer or may wish to change their type of visa must apply for permission at the Office of Immigration Bureau located at Government Complex Building B, Chaengwattana Soi 7, Laksi, Bangkok 10210, Tel 0-2141-9889 or [http://www.immigration.go.th](http://www.immigration.go.th/). The extension of stay as well as the change of certain types of visas is solely at the discretion of the immigration officer.`
+            }
+          },
+          my: {
+            author: 'ထိုင်းသံရုံး',
+            address: `ရန်ကုန်, မြန်မာ`,
+            header: `စီးပွားရေး (သို့) အလုပ်လုပ်ကိုင် လိုသူအတွက် ဗီဇာ`,
+            details: {
+              required_documents: `
+              ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိေသာ နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား အ ေထာက်အထား ။
+
+              ၂။ သတ်မှတ် ထား ေသာ ဗီဇာ ေလျှာက်လွှာ အပြည့်အစုံ ဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီး ရန်။
+              
+              ၃။ မကြာမီ က ရိုက်ထားေသာ ၃.၅ x ၄.၅ စင်တီမီတာ အရွယ်အစားရှိ ဓာတ်ပုံ။ 
+
+              ၄။ ဘဏ်စာရင်း နှင့် ဘဏ်စာအုပ်
+              
+              ၅။ အောက်ပါဖော်ပြထားသော လုပ်ငန်းဆိုင်ရာ စာရွက်စာတမ်းများ:
+
+              **_ထိုင်းနိုင်ငံတွင် အလုပ်လုပ်ကိုင်ခွင့် ရှိသူများအတွက်_**  
+
+              - ထိုင်းနိုင်ငံရှိ အလုပ်ရှင်ထံမှ ရာထူး၊ လစာနှင့် စာချုပ်သက်တမ်း အပါအဝင် အလုပ်အကိုင် အသေးစိတ်ဖော်ပြချက် တို့ပါဝင် ေသာ အလုပ် ခေါ်စာ အသေးစိတ်။ အလုပ် ခန့်အပ်သူ ဘက်မှ လက်မှတ် ရေးထိုးသူ၏ ထိုင်း ID မိတ္တူ၊
+
+              - အလုပ်ပါမစ် သို့မဟုတ် အလုပ်ရှင်က လျှောက်ထားသူကိုယ်စား တင်ပြသော "WP3" ဖောင်နှင့် ပတ်သက်၍ အလုပ်ခန့်ထားရေးဌာနမှ ခွင့်ပြုချက်စာ။ 
+
+              - လျှောက်ထားသူ၏ ပရော်ဖက်ရှင်နယ် အရည်အချင်းနှင့် လုပ်ငန်းအတွေ့အကြုံ အထောက်အထား
+
+              - လျှောက်ထားသူ၏ယခင်အလုပ်လုပ်ကိုင်ခွင့် သို့မဟုတ် ၎င်း၏ထောက်ခံချက်မိတ္တူ (**ထိုင်းနိုင်ငံတွင် အလုပ်လုပ်ဖူးသော လျှောက်ထားသူအတွက် မဖြစ်မနေ တင်ပြရန်**)
+              
+              - ကုမ္ပဏီစာရွက်စာတမ်းမိတ္တူ ဥပမာ။ 1) အစုရှယ်ယာရှင်များစာရင်း 2) လုပ်ငန်းမှတ်ပုံတင်ခြင်းနှင့် လုပ်ငန်းလိုင်စင် 3) လုပ်ငန်းလည်ပတ်မှုအသေးစိတ် 4) နိုင်ငံခြားဝန်ထမ်းများစာရင်း 5) ကုမ္ပဏီ၏လိပ်စာ 6) စာရင်းရှင်းတမ်း၊ ဝင်ငွေခွန်နှင့် လုပ်ငန်းခွန်ထုတ်ပြန်ချက် (Por Ngor Dor၊ နောက်ဆုံးနှစ်၏ 50 နှင့် Por Ngor Dor 30) 7) နိုင်ငံခြားဝင်ငွေခွန် ပြန်လည်ပေးအပ်ခြင်း (Por Ngor Dor 91) နှင့် 8) တန်ဖိုးမြှင့်အခွန်မှတ်ပုံတင်ခြင်း (Por 20)။ _ ဤစာရွက်စာတမ်းများကို အခွင့်အာဏာရှိသူမှ လက်မှတ်ရေးထိုးပြီး ကုမ္ပဏီတံဆိပ်တုံးထုရပါမည်။ လုပ်ပိုင်ခွင့်ရှိသူ၏ ထိုင်း ID မိတ္တူကိုလည်း တင်ပြရမည်။
+              
+
+              _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်းများ တောင်းခံပိုင်ခွင့်ရှိသည်။**_`,
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၈၀`,
+              visa_validity: `၃ လ`,
+              visa_period: `ဤဗီဇာအမျိုးအစားကို ကိုင်ဆောင်ထားသူများသည် ထိုင်းနိုင်ငံတွင် ရက်ပေါင်း ၉၀ အတွင်း အများဆုံးနေထိုင်ခွင့်ရှိသည်။ ၎င်းတို့သည် လူဝင်မှုကြီးကြပ်ရေး ဗျူရိုရုံးတွင် နေထိုင်ခွင့် သက်တမ်းတိုးရန် လျှောက်ထားနိုင်ပြီး ထိုင်းနိုင်ငံသို့ ပထမဆုံး ဝင်ရောက်သည့်နေ့မှစ၍ တစ်နှစ်အထိ သက်တမ်းတိုးခွင့် ရနိုင်သည်။`,
+              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
             }
           }
         }],

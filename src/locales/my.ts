@@ -20,6 +20,7 @@ export default {
   visa_fee: 'ဗီဇာဆောင်ရွက်ခ',
   visa_validity: 'ဗီဇာသက်တမ်း',
   visa_period: 'နေထိုင့်ခွင့်ကာလ',
+  visa_extension: 'နေထိုင်ခွင့် သက်တမ်းတိုးခြင်း။'
 
 
 } as const;
