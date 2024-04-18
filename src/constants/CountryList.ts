@@ -170,7 +170,7 @@ export const countryMapper: { [key: string]: any } = {
               visa_fee: `အမေရိကန်ဒေါ်လာ ၈၀`,
               visa_validity: `၃ လ`,
               visa_period: `ဤဗီဇာအမျိုးအစားကို ကိုင်ဆောင်ထားသူများသည် ထိုင်းနိုင်ငံတွင် ရက်ပေါင်း ၉၀ အတွင်း အများဆုံးနေထိုင်ခွင့်ရှိသည်။ ၎င်းတို့သည် လူဝင်မှုကြီးကြပ်ရေး ဗျူရိုရုံးတွင် နေထိုင်ခွင့် သက်တမ်းတိုးရန် လျှောက်ထားနိုင်ပြီး ထိုင်းနိုင်ငံသို့ ပထမဆုံး ဝင်ရောက်သည့်နေ့မှစ၍ တစ်နှစ်အထိ သက်တမ်းတိုးခွင့် ရနိုင်သည်။`,
-              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
+              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/)  တွင် ခွင့်ပြုချက် လျှောက်ထားရမည်။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
             }
           }
         },
@@ -192,15 +192,31 @@ export const countryMapper: { [key: string]: any } = {
 
               **_Employment in Thailand_**  
               
-              - A letter from the employer in Thailand, requesting the Royal Thai Embassy to issue appropriate visa for the applicant, indicating details of employment, including position, salary and length of contract. And a copy of Thai ID of the person signing the letter.  
+              **-** A letter from the employer in Thailand, requesting the Royal Thai Embassy to issue appropriate visa for the applicant, indicating details of employment, including position, salary and length of contract. And a copy of Thai ID of the person signing the letter.  
 
-              - A work permit or an approval letter from the Department of Employment regarding the “WP3” form submitted on behalf of the applicant by the employer (Japanese nationals are exempted in accordance with JTEPA),  
+              **-** A work permit or an approval letter from the Department of Employment regarding the “WP3” form submitted on behalf of the applicant by the employer (Japanese nationals are exempted in accordance with JTEPA),  
   
-              - Evidence of the applicant’s professional qualifications and work experience  
+              **-** Evidence of the applicant’s professional qualifications and work experience  
   
-              - A work permit of the applicant’s previous employment or its certified copy (**compulsory for an applicant who had worked in Thailand**)  
+              **-** A work permit of the applicant’s previous employment or its certified copy (**compulsory for an applicant who had worked in Thailand**)  
 
-              - Copy of corporate documents e.g. 1) List of shareholders 2) Business registration and business license 3) Details of business operations 4) List of foreign employees, nationalities and positions 5) Address of the company 6) Balance sheet, statement of Income Tax and Business Tax (Por Ngor Dor 50 and Por Ngor Dor 30) of the latest year 7) Alien income tax return (Por Ngor Dor 91) and 8) Value-added tax registration (Por Por 20). _These documents must be signed by an authorized person and stamped with a company’s seal. A copy of Thai ID of the authorized person must also be submitted.
+              **-** Copy of corporate documents e.g. 1) List of shareholders 2) Business registration and business license 3) Details of business operations 4) List of foreign employees, nationalities and positions 5) Address of the company 6) Balance sheet, statement of Income Tax and Business Tax (Por Ngor Dor 50 and Por Ngor Dor 30) of the latest year 7) Alien income tax return (Por Ngor Dor 91) and 8) Value-added tax registration (Por Por 20). _These documents must be signed by an authorized person and stamped with a company’s seal. A copy of Thai ID of the authorized person must also be submitted.
+             
+              _**Teaching in Thailand**_
+
+              **-** A letter from the institution/school signed by an authorized person and stamped with the institution/school’s seal, requesting the Royal Thai Embassy to issue appropriate visa for the applicant. And a copy of Thai ID of the person signing the letter.
+              
+              **-** A letter of approval from the relevant government agency, e.g. the Office of the Private Education Commission or the Office of the Basic Education Commission  
+
+              **-**  A letter of acceptance from the institution/school or a signed employment contract  
+             
+              **-** A police certificate or a criminal record clearance issued by authorities of the applicant’s country of nationality or residence (issued within three months prior to the date of visa application and should be notarized by an authorized body or a diplomatic or consular mission)  
+             
+              **-** Evidence of professional qualifications and work experience  
+              
+              **-** A copy of institution/school license or registration (private school/institution)  
+              
+              **-** A copy of institution/school appointment of its director (private school/institution)
               
               
               `,
@@ -228,22 +244,37 @@ export const countryMapper: { [key: string]: any } = {
 
               **_ထိုင်းနိုင်ငံတွင် အလုပ်လုပ်ကိုင်ခွင့် ရှိသူများအတွက်_**  
 
-              - ထိုင်းနိုင်ငံရှိ အလုပ်ရှင်ထံမှ ရာထူး၊ လစာနှင့် စာချုပ်သက်တမ်း အပါအဝင် အလုပ်အကိုင် အသေးစိတ်ဖော်ပြချက် တို့ပါဝင် ေသာ အလုပ် ခေါ်စာ အသေးစိတ်။ အလုပ် ခန့်အပ်သူ ဘက်မှ လက်မှတ် ရေးထိုးသူ၏ ထိုင်း ID မိတ္တူ၊
+              **-** ထိုင်းနိုင်ငံရှိ အလုပ်ရှင်ထံမှ ရာထူး၊ လစာနှင့် စာချုပ်သက်တမ်း အပါအဝင် အလုပ်အကိုင် အသေးစိတ်ဖော်ပြချက် တို့ပါဝင် ေသာ အလုပ် ခေါ်စာ အသေးစိတ်။ အလုပ် ခန့်အပ်သူ ဘက်မှ လက်မှတ် ရေးထိုးသူ၏ ထိုင်း ID မိတ္တူ၊
 
-              - အလုပ်ပါမစ် သို့မဟုတ် အလုပ်ရှင်က လျှောက်ထားသူကိုယ်စား တင်ပြသော "WP3" ဖောင်နှင့် ပတ်သက်၍ အလုပ်ခန့်ထားရေးဌာနမှ ခွင့်ပြုချက်စာ။ 
+              **-** အလုပ်ပါမစ် သို့မဟုတ် အလုပ်ရှင်က လျှောက်ထားသူကိုယ်စား တင်ပြသော "WP3" ဖောင်နှင့် ပတ်သက်၍ အလုပ်ခန့်ထားရေးဌာနမှ ခွင့်ပြုချက်စာ။ 
 
-              - လျှောက်ထားသူ၏ ပရော်ဖက်ရှင်နယ် အရည်အချင်းနှင့် လုပ်ငန်းအတွေ့အကြုံ အထောက်အထား
+              **-** လျှောက်ထားသူ၏ ပရော်ဖက်ရှင်နယ် အရည်အချင်းနှင့် လုပ်ငန်းအတွေ့အကြုံ အထောက်အထား
 
-              - လျှောက်ထားသူ၏ယခင်အလုပ်လုပ်ကိုင်ခွင့် သို့မဟုတ် ၎င်း၏ထောက်ခံချက်မိတ္တူ (**ထိုင်းနိုင်ငံတွင် အလုပ်လုပ်ဖူးသော လျှောက်ထားသူအတွက် မဖြစ်မနေ တင်ပြရန်**)
+              **-** လျှောက်ထားသူ၏ယခင်အလုပ်လုပ်ကိုင်ခွင့် သို့မဟုတ် ၎င်း၏ထောက်ခံချက်မိတ္တူ (**ထိုင်းနိုင်ငံတွင် အလုပ်လုပ်ဖူးသော လျှောက်ထားသူအတွက် မဖြစ်မနေ တင်ပြရန်**)
               
-              - ကုမ္ပဏီစာရွက်စာတမ်းမိတ္တူ ဥပမာ။ 1) အစုရှယ်ယာရှင်များစာရင်း 2) လုပ်ငန်းမှတ်ပုံတင်ခြင်းနှင့် လုပ်ငန်းလိုင်စင် 3) လုပ်ငန်းလည်ပတ်မှုအသေးစိတ် 4) နိုင်ငံခြားဝန်ထမ်းများစာရင်း 5) ကုမ္ပဏီ၏လိပ်စာ 6) စာရင်းရှင်းတမ်း၊ ဝင်ငွေခွန်နှင့် လုပ်ငန်းခွန်ထုတ်ပြန်ချက် (Por Ngor Dor၊ နောက်ဆုံးနှစ်၏ 50 နှင့် Por Ngor Dor 30) 7) နိုင်ငံခြားဝင်ငွေခွန် ပြန်လည်ပေးအပ်ခြင်း (Por Ngor Dor 91) နှင့် 8) တန်ဖိုးမြှင့်အခွန်မှတ်ပုံတင်ခြင်း (Por 20)။ _ ဤစာရွက်စာတမ်းများကို အခွင့်အာဏာရှိသူမှ လက်မှတ်ရေးထိုးပြီး ကုမ္ပဏီတံဆိပ်တုံးထုရပါမည်။ လုပ်ပိုင်ခွင့်ရှိသူ၏ ထိုင်း ID မိတ္တူကိုလည်း တင်ပြရမည်။
+              **-** ကုမ္ပဏီစာရွက်စာတမ်းမိတ္တူ ဥပမာ။ 1) အစုရှယ်ယာရှင်များစာရင်း 2) လုပ်ငန်းမှတ်ပုံတင်ခြင်းနှင့် လုပ်ငန်းလိုင်စင် 3) လုပ်ငန်းလည်ပတ်မှုအသေးစိတ် 4) နိုင်ငံခြားဝန်ထမ်းများစာရင်း 5) ကုမ္ပဏီ၏လိပ်စာ 6) စာရင်းရှင်းတမ်း၊ ဝင်ငွေခွန်နှင့် လုပ်ငန်းခွန်ထုတ်ပြန်ချက် (Por Ngor Dor၊ နောက်ဆုံးနှစ်၏ 50 နှင့် Por Ngor Dor 30) 7) နိုင်ငံခြားဝင်ငွေခွန် ပြန်လည်ပေးအပ်ခြင်း (Por Ngor Dor 91) နှင့် 8) တန်ဖိုးမြှင့်အခွန်မှတ်ပုံတင်ခြင်း (Por 20)။ _ ဤစာရွက်စာတမ်းများကို အခွင့်အာဏာရှိသူမှ လက်မှတ်ရေးထိုးပြီး ကုမ္ပဏီတံဆိပ်တုံးထုရပါမည်။ လုပ်ပိုင်ခွင့်ရှိသူ၏ ထိုင်း ID မိတ္တူကိုလည်း တင်ပြရမည်။
               
+              _**ထိုင်းနိုင်ငံတွင် ပညာသင်ကြားပေးသူများအတွက်**_
+
+              **-** တာဝန်ရှိသူမှ လက်မှတ်  ရေးထိုးထားသော အဖွဲ့အစည်း/ကျောင်း၏ တံဆိပ် ပါ ထောက်ခံစာတစ်စောင်။ လက်မှတ် ရေးထိုးသူ၏ ထိုင်း ID မိတ္တူ၊
+              
+              **-** အစိုးရ ဌာန မှ ခွင့်ပြုချက် စာ။ ဥပမာ ပုဂ္ဂလိကပညာရေးကော်မရှင်ရုံး သို့မဟုတ် အခြေခံပညာရေးကော်မရှင်ရုံး
+
+              **-**  အဖွဲ့အစည်း/ကျောင်းမှ လက်ခံစာ သို့မဟုတ် လက်မှတ်ရေးထိုးထားသော အလုပ်အကိုင်စာချုပ်
+             
+              **-** လျှောက်ထားသူ၏ နေထိုင်ရာ အာဏာပိုင်များမှ ထုတ်ပေးသော ရဲစခန်းထောက်ခံစာ သို့မဟုတ် ပြစ်မှုကင်းစင် ေကြာင်းထောက်ခံစာ (ဗီဇာလျှောက်ထားသည့်နေ့မတိုင်မီ သုံးလအတွင်း ထုတ်ပေးပြီး တရားဝင်ခွင့်ပြုထားသော အဖွဲ့အစည်း သို့မဟုတ် သံတမန် သို့မဟုတ် ကောင်စစ်ဝန်ရုံးမှ အသိအမှတ်ပြုခံရပီးဖြစ်ရမည်)
+             
+              **-** ပရော်ဖက်ရှင်နယ် အရည်အချင်းနှင့် လုပ်ငန်းအတွေ့အကြုံ အထောက်အထားများ
+
+              **-** အဖွဲ့အစည်း/ကျောင်းလိုင်စင် (ကိုယ်ပိုင်ကျောင်း/အင်စတီကျူးရှင်း)၊
+              
+              **-** ၎င်း၏ဒါရိုက်တာ (ပုဂ္ဂလိကကျောင်း/အင်စတီကျူးရှင်း) ၏ ခန့်အပ်မှုဆိုင်ရာ စာရွက်စာတမ်းမိတ္တူ
 
               _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်းများ တောင်းခံပိုင်ခွင့်ရှိသည်။**_`,
               visa_fee: `အမေရိကန်ဒေါ်လာ ၈၀`,
               visa_validity: `၃ လ`,
               visa_period: `ဤဗီဇာအမျိုးအစားကို ကိုင်ဆောင်ထားသူများသည် ထိုင်းနိုင်ငံတွင် ရက်ပေါင်း ၉၀ အတွင်း အများဆုံးနေထိုင်ခွင့်ရှိသည်။ ၎င်းတို့သည် လူဝင်မှုကြီးကြပ်ရေး ဗျူရိုရုံးတွင် နေထိုင်ခွင့် သက်တမ်းတိုးရန် လျှောက်ထားနိုင်ပြီး ထိုင်းနိုင်ငံသို့ ပထမဆုံး ဝင်ရောက်သည့်နေ့မှစ၍ တစ်နှစ်အထိ သက်တမ်းတိုးခွင့် ရနိုင်သည်။`,
-              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
+              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) တွင် ခွင့်ပြုချက် လျှောက်ထားရမည်။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
             }
           }
         }],
@@ -251,7 +282,7 @@ export const countryMapper: { [key: string]: any } = {
           {
             author: 'BizHub Myanmar',
             address: `Thailand`,
-            header: `Thailand Visa`,
+            header: `Thailand Visa လိုတိုရှင်း`,
             content: `***Q*** ထိုင်းမှာ condo နဲ့ Landed House တွေဝယ်ရင် နေထိုင်ခွင့်ရလား
 
             ***A*** မရပါ ။ ထိုင်းနိုင်ငံတွင် Property ဝယ်ယူလျှင် အမြဲတမ်းနေထိုင်ခွင့် တန်းမပေးပါ။
