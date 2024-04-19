@@ -76,7 +76,7 @@ export const countryMapper: { [key: string]: any } = {
               agreement, the agreement had to be signed from both sides and had to attached ID of the owner of the property and deed of the property OR for the owner of the condominium they have to present the proof of ownership of that condominium.
                   
                   _**The consular officer reserves the right to request additional documents as deemed necessary**_`,
-                  visa_fee: `40 USD (single entry)
+              visa_fee: `40 USD (single entry)
               
                     200 USD (multiple entries)`,
               visa_validity: `3 months  (Duration of stay in Thailand is 60 days from the date of arrival and the visa validity is 3 months from the date of issue.)
@@ -95,7 +95,7 @@ export const countryMapper: { [key: string]: any } = {
               required_documents: `၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိေသာ နိုင်ငံကူး လက်မှတ် နှင့် ဗီဇာရိုက်နှိပ် ရန် စာရွက်လွတ် များ ကျန်ရှိရမည် ။
 
                          ၂။ အနည်းဆုံး  မြန်မာကျပ် ေငွ သိန်း (၂၀) နှင့် ညီမျှ ေသာ ပမာဏ ရှိသည့် ဘဏ် စာရင်း နှင့် မူရင်း ဘဏ်စာအုပ်။
-              (အသက် ၁၈ နှစ် ေအာက် ရှိေသာ ေလျှာက်ထားသူများ သည် အုပ်ထိန်းသူ ပိုင်ဆိုင် ေသာ ဘဏ်စာရင်း နှင့် ဘဏ်စာအုပ် သုံး၍ ေလျှာက်ထားခွင့် ရှိသည်။ ထိုအချက်လက်များကို မူရင်းသန်း ေခါင်စာရင်း ၊ မှတ်ပုံတင် နှင့် ေမွးစာရင်း တို့နှင့် စစ် ေဆးပီး ေလျှာက်ထားခွင့် သုံးသပ်ပါမည်။)
+              (အသက် ၁၈ နှစ် ေအာက် ရှိသော ေလျှာက်ထားသူများ သည် အုပ်ထိန်းသူ ပိုင်ဆိုင် ေသာ ဘဏ်စာရင်း နှင့် ဘဏ်စာအုပ် သုံး၍ ေလျှာက်ထားခွင့် ရှိသည်။ ထိုအချက်လက်များကို မူရင်းသန်း ေခါင်စာရင်း ၊ မှတ်ပုံတင် နှင့် ေမွးစာရင်း တို့နှင့် စစ် ေဆးပီး ေလျှာက်ထားခွင့် သုံးသပ်ပါမည်။)
                   
               ၃။  သတ်မှတ် ထား ေသာ ဗီဇာ ေလျှာက်လွှာ အပြည့်အစုံ ဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီး ရန်။
               
@@ -109,8 +109,8 @@ export const countryMapper: { [key: string]: any } = {
               အမေရိကန်ဒေါ်လာ ၂၀၀ (ဝင်ခွင့် တစ်ကြိမ်ထပ်ပို၍)`,
               visa_validity: `၃ လ။ (ထိုင်းနိုင်ငံတွင်နေထိုင်ရန်ကြာချိန်သည် ဆိုက်ရောက်သည့်နေ့မှရက်ပေါင်း ၆၀ ဖြစ်ပြီး၊ ဗီဇာသက်တမ်းသည် ထုတ်ပေးသည့်နေ့မှ ၃လ အတွင်း သွားေရာက် ခွင့်ရှိသည်။)
               
-              ၆ လ။ (တစ်ကြိမ်ထက် ပိုေသာ ဝင်ခွင့် များအတွက်)`,
-              visa_period: `ဆိုက်ရောက် ေသာေန့ေပါ်မူတည်၍ TR ဗီဇာဖြင့် ခရီးသွားများကို ထိုင်းတွင် ရက် 60 အများဆုံးနေထိုင်ခွင့်ပြုမည်ဖြစ်သည်။ ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`,
+              ၆ လ။ (တစ်ကြိမ်ထက် ပိုသော ဝင်ခွင့် များအတွက်)`,
+              visa_period: `ဆိုက်ရောက် သောနေ့ပေါ်မူတည်၍ TR ဗီဇာဖြင့် ခရီးသွားများကို ထိုင်းတွင် ရက် 60 အများဆုံးနေထိုင်ခွင့်ပြုမည်ဖြစ်သည်။ ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`,
             }
           }
         },
@@ -149,7 +149,7 @@ export const countryMapper: { [key: string]: any } = {
             header: `ပညာသင်များအတွက် ဗီဇာ`,
             details: {
               required_documents: `
-              ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိေသာ နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား အ ေထာက်အထား ။
+              ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိသော နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား အ ေထာက်အထား ။
 
               ၂။ သတ်မှတ် ထား ေသာ ဗီဇာ ေလျှာက်လွှာ အပြည့်အစုံ ဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီး ရန်။
               
@@ -217,11 +217,47 @@ export const countryMapper: { [key: string]: any } = {
               **-** A copy of institution/school license or registration (private school/institution)  
               
               **-** A copy of institution/school appointment of its director (private school/institution)
+
+              _**Professional sport player**_ 
+
+              **-** Approval by the Ministry of Foreign Affairs of Thailand is required prior to submitting a visa application.  
+
+              **-** Evidence of previous overseas employment in English and certified by the Ministry of Foreign Affairs of the applicant’s country of residence or relevant authorities
               
+              _**Training or internship**_ 
               
+              **-** A letter from the sponsoring company/organization in Thailand, requesting the Royal Thai Embassy to issue appropriate visa for the applicant, indicating details of training or internship, including duration, scope of training/internship and payment (if any). And a copy of Thai ID of the person signing the letter.  
+              
+              **-** Copy of corporate documents (See above)  
+              
+              **-**  If the training or internship is part of an academic curriculum, a letter from the applicant’s university/academic institution confirming the requirement and requesting the Royal Thai Embassy to issue appropriate visa for the applicant. In this case, the applicant will be issued with **Non-Immigrant “ED”** visa.
+              
+              _**Conducting business or attending a conference**_  
+              
+              **Documents from Thai side** 
+              
+              **-** Documents from host company/organization in Thailand  
+              
+              **-** An invitation letter, stating the applicant’s purpose of visit and duration of stay in Thailand. And a copy of Thai ID of the person signing the letter.  
+              
+              **-** Company/organization’s registration documents
+
+              **Documents from Myanmar side**  
+              
+              **-** A letter from the current employer, confirming the applicant’s current position, salary, purpose of visit, and duration of stay in Thailand. And a copy of ID of the person signing the letter.  
+              
+              **-** Company/organization’s registration documents  
+              
+              **-** In case of a business owner, a letter of intent financial statements and evidence of business ownership
+
+              **_Consular Officer reserves the right to request addition documents or interview as_** **_necessary._**
               `,
-              visa_fee: `80 USD `,
-              visa_validity: `3 months`,
+              visa_fee: `40 USD (single entry)
+              
+                    200 USD (multiple entries)`,
+              visa_validity: `3 months  (Duration of stay in Thailand is 60 days from the date of arrival and the visa validity is 3 months from the date of issue.)
+              
+                    6 months (multiple entries)`,
               visa_period: `Travelers coming to Thailand with this type of visa will be permitted to stay in the Kingdom for a period not exceeding 90 days. Holders of this type of visa are entitled to stay in Thailand for a maximum period of 90 days. They may apply for an extension of stay at the Office of the Immigration Bureau and may be granted such extension for one year from the date of their first entry into Thailand.`,
               visa_extension: `Those who wish to stay longer or may wish to change their type of visa must apply for permission at the Office of Immigration Bureau located at Government Complex Building B, Chaengwattana Soi 7, Laksi, Bangkok 10210, Tel 0-2141-9889 or [http://www.immigration.go.th](http://www.immigration.go.th/). The extension of stay as well as the change of certain types of visas is solely at the discretion of the immigration officer.`
             }
@@ -229,7 +265,7 @@ export const countryMapper: { [key: string]: any } = {
           my: {
             author: 'ထိုင်းသံရုံး',
             address: `ရန်ကုန်, မြန်မာ`,
-            header: `စီးပွားရေး (သို့) အလုပ်လုပ်ကိုင် လိုသူအတွက် ဗီဇာ`,
+            header: `စီးပွားရေး (သို့) အလုပ်လုပ်ကိုင် မည့်သူအတွက် ဗီဇာ`,
             details: {
               required_documents: `
               ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိေသာ နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား အ ေထာက်အထား ။
@@ -258,23 +294,100 @@ export const countryMapper: { [key: string]: any } = {
 
               **-** တာဝန်ရှိသူမှ လက်မှတ်  ရေးထိုးထားသော အဖွဲ့အစည်း/ကျောင်း၏ တံဆိပ် ပါ ထောက်ခံစာတစ်စောင်။ လက်မှတ် ရေးထိုးသူ၏ ထိုင်း ID မိတ္တူ၊
               
-              **-** အစိုးရ ဌာန မှ ခွင့်ပြုချက် စာ။ ဥပမာ ပုဂ္ဂလိကပညာရေးကော်မရှင်ရုံး သို့မဟုတ် အခြေခံပညာရေးကော်မရှင်ရုံး
+              **-** သက်ဆိုင်ရာ အစိုးရဌာန မှ ခွင့်ပြုချက် စာ။ ဥပမာ ပုဂ္ဂလိကပညာရေးကော်မရှင်ရုံး သို့မဟုတ် အခြေခံပညာရေးကော်မရှင်ရုံး။
 
-              **-**  အဖွဲ့အစည်း/ကျောင်းမှ လက်ခံစာ သို့မဟုတ် လက်မှတ်ရေးထိုးထားသော အလုပ်အကိုင်စာချုပ်
+              **-**  အဖွဲ့အစည်း/ကျောင်းမှ လက်ခံစာ သို့မဟုတ် လက်မှတ်ရေးထိုးထားသော အလုပ်အကိုင်စာချုပ်။
              
               **-** လျှောက်ထားသူ၏ နေထိုင်ရာ အာဏာပိုင်များမှ ထုတ်ပေးသော ရဲစခန်းထောက်ခံစာ သို့မဟုတ် ပြစ်မှုကင်းစင် ေကြာင်းထောက်ခံစာ (ဗီဇာလျှောက်ထားသည့်နေ့မတိုင်မီ သုံးလအတွင်း ထုတ်ပေးပြီး တရားဝင်ခွင့်ပြုထားသော အဖွဲ့အစည်း သို့မဟုတ် သံတမန် သို့မဟုတ် ကောင်စစ်ဝန်ရုံးမှ အသိအမှတ်ပြုခံရပီးဖြစ်ရမည်)
              
-              **-** ပရော်ဖက်ရှင်နယ် အရည်အချင်းနှင့် လုပ်ငန်းအတွေ့အကြုံ အထောက်အထားများ
+              **-** ပရော်ဖက်ရှင်နယ် အရည်အချင်းနှင့် လုပ်ငန်းအတွေ့အကြုံ အထောက်အထားများ။
 
-              **-** အဖွဲ့အစည်း/ကျောင်းလိုင်စင် (ကိုယ်ပိုင်ကျောင်း/အင်စတီကျူးရှင်း)၊
+              **-** အဖွဲ့အစည်း/ကျောင်းလိုင်စင် (ကိုယ်ပိုင်ကျောင်း/အင်စတီကျူးရှင်း)။
               
-              **-** ၎င်း၏ဒါရိုက်တာ (ပုဂ္ဂလိကကျောင်း/အင်စတီကျူးရှင်း) ၏ ခန့်အပ်မှုဆိုင်ရာ စာရွက်စာတမ်းမိတ္တူ
+              **-** ပုဂ္ဂလိကကျောင်း/အင်စတီကျူးရှင်း၏ ဒါရိုက်တာ ခန့်အပ်မှုဆိုင်ရာ စာရွက်စာတမ်းမိတ္တူ။
 
-              _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်းများ တောင်းခံပိုင်ခွင့်ရှိသည်။**_`,
-              visa_fee: `အမေရိကန်ဒေါ်လာ ၈၀`,
-              visa_validity: `၃ လ`,
+              _**ပရော်ဖက်ရှင်နယ်အားကစားကစားသမားများအတွက်**_ 
+
+              **-** ဗီဇာ မလျှောက်ထားမီ ထိုင်းနိုင်ငံ နိုင်ငံခြားရေး ဝန်ကြီးဌာန မှ ခွင့်ပြုစာ ရယူထားရမည်။
+              
+              **-** နိုင်ငံခြားတွင် ဝင်ရောက်ကစားခဲ့သော အထောက်အထား နှင့် အမိနိုင်ငံ၏ နိုင်ငံခြားရေး ဝန်ကြီးဌာန (သို့မဟုတ်) သက်ဆိုင်ရာ အာဏာပိုင်များထံမှ ခွင့်ပြုစာ။
+
+
+              _**သင်တန်း သို့မဟုတ် အလုပ်သင်များအတွက်**_ 
+
+              **-** စီစဉ်ကျင်းပသောထိုင်းနိုင်ငံရှိ ကုမ္ပဏီ/အဖွဲ့အစည်းမှ အကြောင်းအရာ၊ အချိန်၊  ငွေပေးချေမှု (ပါဝင်ပါက) စသည့်အသေးစိတ် များနှင့် တာဝန်ရှိသူ လက်မှတ် တို့ပါဝင်သော ဖိတ်ခေါ်စာ (သို့မဟုတ်) စာရွက်စာတမ်း၊ လက်မှတ်ရေးထိုးသူ၏ ထိုင်း ID မိတ္တူ။ 
+              
+              **-** အစီစဉ် ကျင်းပသော ကုမ္ပဏီ၏ စာရွက်စာတမ်းမိတ္တူ ဥပမာ။ 1) အစုရှယ်ယာရှင်များစာရင်း 2) လုပ်ငန်းမှတ်ပုံတင်ခြင်းနှင့် လုပ်ငန်းလိုင်စင် 3) လုပ်ငန်းလည်ပတ်မှုအသေးစိတ် 4) နိုင်ငံခြားဝန်ထမ်းများစာရင်း 5) ကုမ္ပဏီ၏လိပ်စာ 6) စာရင်းရှင်းတမ်း၊ ဝင်ငွေခွန်နှင့် လုပ်ငန်းခွန်ထုတ်ပြန်ချက် (Por Ngor Dor၊ နောက်ဆုံးနှစ်၏ 50 နှင့် Por Ngor Dor 30) 7) နိုင်ငံခြားဝင်ငွေခွန် ပြန်လည်ပေးအပ်ခြင်း (Por Ngor Dor 91) နှင့် 8) တန်ဖိုးမြှင့်အခွန်မှတ်ပုံတင်ခြင်း (Por 20)။ _ ဤစာရွက်စာတမ်းများကို အခွင့်အာဏာရှိသူမှ လက်မှတ်ရေးထိုးပြီး ကုမ္ပဏီတံဆိပ်တုံးထုရပါမည်။ လုပ်ပိုင်ခွင့်ရှိသူ၏ ထိုင်း ID မိတ္တူကိုလည်း တင်ပြရမည်။
+              
+              **-**  ပညာရေးအဖွဲ့အစည်း များကကျင်းပသော အစီစဉ် ဖြစ်ပါက ၎င်း အဖွဲ့အစည်း၏ စာရွက်စာတမ်း များနှင့်တကွ  လျှောက်ထားလျှင် သင့်လျော်ရာ ဗီဇာ ဖြစ်သော ပညာသင်များအတွက် ဗီဇာ (**Non-Immigrant “ED”**) ထုတ်ပေးမည်ဖြစ်သည်။
+              
+              
+              _**စီးပွားရေးလုပ်ခြင်း သို့မဟုတ် ညီလာခံတက်မည့်သူများအတွက်**_
+
+              **ထိုင်းဘက်မှ လိုအပ်သော စာရွက်စာတမ်းများ** 
+              
+              **-** ထိုင်းနိုင်ငံရှိ အိမ်ရှင်ကုမ္ပဏီ/အဖွဲ့အစည်းထံမှ စာရွက်စာတမ်းများ  
+              
+              **-** လျှောက်ထားသူ၏ ခရီးစဉ်ရည်ရွယ်ချက်နှင့် ထိုင်းနိုင်ငံတွင် နေထိုင်သည့်ကြာချိန်တို့ကို ဖော်ပြထားသည့် လက်မှတ်ရေးထိုးထားပီး ဖိတ်စာတစ်စောင်။ လက်မှတ် ရေးထိုးသူ၏ ထိုင်း ID မိတ္တူ၊ 
+              
+              **-** ကုမ္ပဏီ/အဖွဲ့အစည်း၏ မှတ်ပုံတင်စာရွက်စာတမ်းများ
+
+              **မြန်မာဘက်မှ လိုအပ်သော စာရွက်စာတမ်းများ**  
+              
+              **-** လက်ရှိအလုပ်ခန့်အပ်ထားသော အဖွဲ့စည်းမှ လက်ရှိ ရာထူး၊ လုပ်ခလစာ၊ သွားရောက်ရမည့် ရည်ရွယ်ချက်၊  ထိုင်းနိုင်ငံတွင် နေထိုင်မည့် ကြာချိန်ကာလ၊ စသည့်အချက်လက်များနှင့် တာဝန်ရှိသူလက်မှတ် ပါဝင်သည့် စာရွက်စာတမ်း။ လက်မှတ်ရေးထိုးသူ၏ အထောက်ထား ID။
+              
+              **-** ကုမ္ပဏီ/အဖွဲ့အစည်း၏ မှတ်ပုံတင်စာရွက်စာတမ်းများ  
+              
+              **-** စီးပွားရေးလုပ်ငန်းရှင် ဖြစ်ပါက ဘဏ္ဍာရေးရှင်းတမ်းများနှင့် လုပ်ငန်းပိုင်ဆိုင်မှုဆိုင်ရာ အထောက်အထားများ။
+
+              _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်း (သို့မဟုတ်) အင်တာဗျူးများ တောင်းဆိုပိုင်ခွင့်ရှိသည်။**_`,
+
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၄၀ (ဝင်ခွင့် တစ်ကြိမ်)
+
+              အမေရိကန်ဒေါ်လာ ၂၀၀ (ဝင်ခွင့် တစ်ကြိမ်ထပ်ပို၍)`,
+              visa_validity: `၃ လ။ (ဝင်ခွင့် တစ်ကြိမ် အတွက်)
+              
+              ၆ လ။ (တစ်ကြိမ်ထက် ပိုသော ဝင်ခွင့် များအတွက်)`,
               visa_period: `ဤဗီဇာအမျိုးအစားကို ကိုင်ဆောင်ထားသူများသည် ထိုင်းနိုင်ငံတွင် ရက်ပေါင်း ၉၀ အတွင်း အများဆုံးနေထိုင်ခွင့်ရှိသည်။ ၎င်းတို့သည် လူဝင်မှုကြီးကြပ်ရေး ဗျူရိုရုံးတွင် နေထိုင်ခွင့် သက်တမ်းတိုးရန် လျှောက်ထားနိုင်ပြီး ထိုင်းနိုင်ငံသို့ ပထမဆုံး ဝင်ရောက်သည့်နေ့မှစ၍ တစ်နှစ်အထိ သက်တမ်းတိုးခွင့် ရနိုင်သည်။`,
               visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) တွင် ခွင့်ပြုချက် လျှောက်ထားရမည်။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
+            }
+          }
+        },
+        {
+          en: {
+            author: 'Royal Thai Embassy',
+            address: `Yangon, Myanmar`,
+            header: `Transit Visa`,
+            details: {
+              required_documents: `**-** passport or travel document of which validity is no less than 6 months  
+              
+              **-** visa application form completely filled in  
+              
+              **-** 2 recent color photos (3.5x4.5 cm)  
+              
+              **-** visa issued by the country of destination (except traveling to own country)  
+              
+              **-** Air ticket (if required by Consular officer)`,
+              visa_fee: `35 USD (single entry)`,
+            }
+          },
+          my: {
+            author: 'ထိုင်းသံရုံး',
+            address: `ရန်ကုန်, မြန်မာ`,
+            header: `သွားရောက်မည့်နိုင်ငံသို့ မရောက်မီ ထိုင်းနိုင်ငံတွင် ခေတ္တသွားရောက်လည်ပတ်ခွင့် ဗီဲဲဇာ`,
+            details: {
+              required_documents: `
+              ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိသော နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား  အထောက်အထား ။
+
+              ၂။ သတ်မှတ်ထားသော ဗီဇာလျှောက်လွှာ အပြည့်အစုံဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီးရန်။
+              
+              ၃။ မကြာမီက ရိုက်ထားသော ၃.၅ x ၄.၅ စင်တီမီတာ အရွယ်အစားရှိ ဓာတ်ပုံ။ 
+
+              ၄။ သွားရောက်မည့်နိုင်ငံမှ ထုတ်ပေးထားသော ဗီဇာ။
+
+              ၅။ အသွားအပြန်လေယာဉ်လက်မှတ် (တာဝန်ရှိသူမှ တောင်းခံပါက)`,
+
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၃၅ (ဝင်ခွင့် တစ်ကြိမ်)`,
             }
           }
         }],
