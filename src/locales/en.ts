@@ -16,10 +16,13 @@ export default {
   refs: 'References',
   checkpoints: 'Check Points',
   official_announcements: 'Official Announcements',
+  eligibility: 'Eligibility',
   required_documents: 'Required Documents',
   visa_fee: 'Visa Processing Fee',
   visa_validity: 'Validity of Visa',
   visa_period: 'Period of Stay',
-  visa_extension: 'Extension of Stay'
+  visa_extension: 'Extension of Stay',
+  recommendations: 'Recommendations',
+
 
 } as const;

@@ -111,6 +111,7 @@ export const countryMapper: { [key: string]: any } = {
               
               ၆ လ။ (တစ်ကြိမ်ထက် ပိုသော ဝင်ခွင့် များအတွက်)`,
               visa_period: `ဆိုက်ရောက် သောနေ့ပေါ်မူတည်၍ TR ဗီဇာဖြင့် ခရီးသွားများကို ထိုင်းတွင် ရက် 60 အများဆုံးနေထိုင်ခွင့်ပြုမည်ဖြစ်သည်။ ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`,
+            
             }
           }
         },
@@ -359,15 +360,15 @@ export const countryMapper: { [key: string]: any } = {
             address: `Yangon, Myanmar`,
             header: `Transit Visa`,
             details: {
-              required_documents: `**-** passport or travel document of which validity is no less than 6 months  
+              required_documents: `**1.** passport or travel document of which validity is no less than 6 months  
               
-              **-** visa application form completely filled in  
+              **2.** visa application form completely filled in  
               
-              **-** 2 recent color photos (3.5x4.5 cm)  
+              **3.** 2 recent color photos (3.5x4.5 cm)  
               
-              **-** visa issued by the country of destination (except traveling to own country)  
+              **4.** visa issued by the country of destination (except traveling to own country)  
               
-              **-** Air ticket (if required by Consular officer)`,
+              **5.** Air ticket (if required by Consular officer)`,
               visa_fee: `35 USD (single entry)`,
             }
           },
@@ -388,6 +389,242 @@ export const countryMapper: { [key: string]: any } = {
               ၅။ အသွားအပြန်လေယာဉ်လက်မှတ် (တာဝန်ရှိသူမှ တောင်းခံပါက)`,
 
               visa_fee: `အမေရိကန်ဒေါ်လာ ၃၅ (ဝင်ခွင့် တစ်ကြိမ်)`,
+            }
+          }
+        }, {
+          en: {
+            author: 'Royal Thai Embassy',
+            address: `Yangon, Myanmar`,
+            header: `Medical Tourist Visa`,
+            details: {
+              required_documents: `**1.** Passport or travel document with validity not less than 6 months  
+              
+              **2.** Visa application form completely filled out and signed  
+              
+              **3.** Recent 3.5 cm x 4.5 cm photograph of the applicant  
+              
+              **4.** Copy of the Confirmation Letter or Affidavit of Support with a stamp from the Ministry of Public Health of Thailand  
+              
+              **5.** Evidence of adequate finance for the entire duration of stay in Thailand (at least 1,000 USD per person)`,
+              visa_fee: `40 USD (single entry)`,
+              visa_period: `Upon arrival, travelers with a MT visa will be permitted to stay in Thailand for 60 days maximum. Those who wish to stay longer or change their type of visa must apply for permission at the Office of Immigration Bureau located at Government Center B, Chaengwattana Soi 7, Laksi, Bangkok 10210, Tel 0-2141-9889 (or at [http://www.immigration.go.th](http://www.immigration.go.th/)). The extension of stay as well as the change of certain types of visas is solely at the discretion of the immigration officer.`
+            }
+          },
+          my: {
+            author: 'ထိုင်းသံရုံး',
+            address: `ရန်ကုန်, မြန်မာ`,
+            header: `ကျန်းမာရေး ပြသလိုသူများအတွက် ခရီးသွားဗီဇာ`,
+            details: {
+              required_documents: `
+              ၁။ သက်တမ်း အနည်းဆုံး၆လရှိသော နိုင်ငံကူးလက်မှတ် (သို့မဟုတ်) ခရီးသွား  အထောက်အထား ။
+
+              ၂။ သတ်မှတ်ထားသော ဗီဇာလျှောက်လွှာ အပြည့်အစုံဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီးရန်။
+              
+              ၃။ မကြာမီက ရိုက်ထားသော ၃.၅ x ၄.၅ စင်တီမီတာ အရွယ်အစားရှိ ဓာတ်ပုံ။ 
+
+              ၄။ ထိုင်းနိုင်ငံ ပြည်သူ့ကျန်းမာရေး ဝန်ကြီးဌာနမှ တံဆိပ်ခေါင်းဖြင့် ထောက်ခံကြောင်း အတည်ပြုလွှာ သို့မဟုတ် ထောက်ခံချက် အထောက်အထား မိတ္တူ
+
+              ၅။ ထိုင်းနိုင်ငံတွင်နေထိုင်သည့်ကာလတစ်ခုလုံးအတွက် လုံလောက်သောငွေကြေးအထောက်အထား (လူတစ်ဦးလျှင် အနည်းဆုံး အမေရိကန် ဒေါ်လာ ၁ ထောင်)`,
+
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၄၀ (ဝင်ခွင့် တစ်ကြိမ်)`,
+              visa_period: `ဆိုက်ရောက် သောနေ့ပေါ်မူတည်၍ MT ဗီဇာဖြင့် ခရီးသွားများကို ထိုင်းတွင် ရက် 60 အများဆုံးနေထိုင်ခွင့်ပြုမည်ဖြစ်သည်။ ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/) ။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`,
+            }
+          }
+        }, {
+          en: {
+            author: 'Royal Thai Embassy',
+            address: `Yangon, Myanmar`,
+            header: `Non-Immigrant O Visa (Family Members/Dependents)`,
+            details: {
+              required_documents: `**1.** Passport or travel document with validity no less than 6 months  
+              
+              **2.** Visa application form completely filled out and signed  
+              
+              **3.** Recent 3.5 cm x 4.5 cm photograph of the applicant  
+              
+              **4.** Company or school’s guarantee letter addressed to the Royal Thai Embassy, Phnom Penh, stating that the applicant is the spouse or family member of those working or studying in Thailand  
+              
+              **5.** Copy of passport pages of those working or studying in Thailand. The passport pages should include the personal data page and Thai visa page.  
+              
+              **6.** Copy of Thai work permit or student ID card  
+              
+              **7.** Copy of marriage certificate (for spouse)  
+              
+              **8.** Copy of birth certificate(for parents)  
+              
+              **9.** Company’s recent business certificate and relevant documents to confirm that the company is still active  
+              
+              **10.** In case the spouse is working with a company under BOI promotion, the original letter from BOI for grant of dependent’s visa  
+              
+              **11.** Applicant’s evidence of adequate finance
+              
+              **_The consular officer reserves the right to require additional documents as deemed necessary._**`,
+
+              visa_fee: `80 USD (single entry)
+              
+                200 USD (multiple entries)`,
+              visa_validity: `3 months`,
+              visa_period: `Travelers coming to Thailand with this type of visa will be permitted to stay in the Kingdom for a period not exceeding 90 days.`,
+              visa_extension: `Those who wish to stay longer or may wish to change their type of visa must apply for permission at the Office of Immigration Bureau located at Government Complex Building B, Chaengwattana Soi 7, Laksi, Bangkok 10210, Tel 0-2141-9889 or [http://www.immigration.go.th](http://www.immigration.go.th/). The extension of stay as well as the change of certain types of visas is solely at the discretion of the immigration officer.`
+
+            }
+          },
+          my: {
+            author: 'ထိုင်းသံရုံး',
+            address: `ရန်ကုန်, မြန်မာ`,
+            header: `မိသားစုဝင်များ/မှီခိုသူများ ဗီဲဲဇာ`,
+            details: {
+              required_documents: `
+              ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိသော နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား  အထောက်အထား ။
+
+              ၂။ သတ်မှတ်ထားသော ဗီဇာလျှောက်လွှာ အပြည့်အစုံဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီးရန်။
+              
+              ၃။ မကြာမီက ရိုက်ထားသော ၃.၅ x ၄.၅ စင်တီမီတာ အရွယ်အစားရှိ ဓာတ်ပုံ။ 
+
+              ၄။ ထိုင်းနိုင်ငံမှ ကုမ္ပဏီ သို့မဟုတ် ကျောင်းကထုတ်ပေးထားသော အိမ်ထောင်ဖက် (သို့မဟုတ်) မိသားစုဝင်ဖြစ်ကြောင်း ထောက်ခံစာ။
+              
+              ၅။ ထိုင်းနိုင်ငံတွင် အလုပ်လုပ်နေသူ (သို့မဟုတ်) ပညာသင်ကြားနေသူ ၏ နိုင်ငံကူးလက်မှတ်မိတ္တူ (ကိုယ်ရေးကိုယ်တာအချက်အလက် ပါဝင်သော စာမျက်နှာနှင့် ဗီဇာ စာမျက်နှာ)
+              
+              ၆။ အလုပ်ပါမစ် သို့မဟုတ် ကျောင်းသားမှတ်ပုံတင်ကတ်မိတ္တူ
+              
+              ၇။  လက်ထပ်စာချုပ်မိတ္တူ (အိမ်ထောင်ဘက် အတွက်)
+
+              ၈။ မွေးစာရင်း မိတ္တူ (မိဘများအတွက်)
+              
+              ၉။  ကုမ္ပဏီ၏ လတ်တလော လုပ်ငန်းလက်မှတ်နှင့် သက်ဆိုင်ရာစာရွက်စာတမ်းများ နှင့် ကုမ္ပဏီသည် လုပ်ငန်းဆောင်ရွက်ဆဲဖြစ်ကြောင်း အတည်ပြုရန်
+              
+              ၁၀။ အိမ်ထောင်ဖက်သည် BOI ပရိုမိုးရှင်းအောက်မှ ကုမ္ပဏီတစ်ခုနှင့် အလုပ်လုပ်နေလျှင် ဗီဇာအတွက် BOI မှ ထောက်ခံစာ မူရင်း။
+              
+              ၁၁။ လျှောက်ထားသူ၏ လုံလောက်သော ငွေကြေးဆိုင်ရာ အထောက်အထား
+              
+              _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်းများ တောင်းဆိုပိုင်ခွင့်ရှိသည်။**_`,
+
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၈၀ (ဝင်ခွင့် တစ်ကြိမ်)
+
+              အမေရိကန်ဒေါ်လာ ၂၀၀ (ဝင်ခွင့် တစ်ကြိမ်ထပ်ပို၍)`,
+              visa_validity: `၃ လ။`,
+              visa_period: `ဤဗီဇာအမျိုးအစားကို ကိုင်ဆောင်ထားသူများသည် ထိုင်းနိုင်ငံတွင် ရက်ပေါင်း ၉၀ အတွင်း အများဆုံးနေထိုင်ခွင့်ရှိသည်။`,
+              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/)  တွင် ခွင့်ပြုချက် လျှောက်ထားရမည်။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
+            }
+          }
+        },
+        {
+          en: {
+            author: 'Royal Thai Embassy',
+            address: `Yangon, Myanmar`,
+            header: `Non-Immigrant O Visa (Thai Family)`,
+            details: {
+              required_documents: `**1.** Passport or travel document with validity no less than 6 months  
+              
+              **2.** Visa application form completely filled out and signed  
+              
+              **3.** Recent 3.5 cm x 4.5 cm photograph of the applicant  
+              
+              **4.** Copy of marriage certificate, passport, and identity card of the applicant’s Thai spouse or copy of birth certificate of the applicant’s Thai child, and passport and identity card of the child
+              
+              **5.** Letter from the Applicant’s Thai spouse
+              
+              **6.** Bank statement
+              
+              **_The consular officer reserves the right to require additional documents or an interview with the applicant, as deemed necessary._**`,
+
+              visa_fee: `80 USD (single entry)
+              
+                200 USD (multiple entries)`,
+              visa_validity: `3 months (single entry)
+              1 year (multiple entry)`,
+              visa_period: `Travelers coming to Thailand with this type of visa will be permitted to stay in the Kingdom for a period not exceeding 90 days.`,
+              visa_extension: `Those who wish to stay longer or may wish to change their type of visa must apply for permission at the Office of Immigration Bureau located at Government Complex Building B, Chaengwattana Soi 7, Laksi, Bangkok 10210, Tel 0-2141-9889 or [http://www.immigration.go.th](http://www.immigration.go.th/). The extension of stay as well as the change of certain types of visas is solely at the discretion of the immigration officer.`
+            }
+          },
+          my: {
+            author: 'ထိုင်းသံရုံး',
+            address: `ရန်ကုန်, မြန်မာ`,
+            header: `ထိုင်းနိုင်ငံသားနှင့် တော်စပ်သူ မိသားစုဝင်များ ဗီဲဲဇာ`,
+            details: {
+              required_documents: `
+              ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိသော နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား  အထောက်အထား ။
+
+              ၂။ သတ်မှတ်ထားသော ဗီဇာလျှောက်လွှာ အပြည့်အစုံဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီးရန်။
+              
+              ၃။ မကြာမီက ရိုက်ထားသော ၃.၅ x ၄.၅ စင်တီမီတာ အရွယ်အစားရှိ ဓာတ်ပုံ။ 
+
+              ၄။ အိမ်ထောင်ဘက် ၏ လက်ထက်စာချုပ်၊ နိုင်ငံကူးလက်မှတ်၊ မှတ်ပုံတင် (သို့မဟုတ်) ID မိတ္တူ, ကလေး များအတွက် လျှောက်ထားပါက မွေးစာရင်း၊ နိုင်ငံကူးလက်မှတ်နှင့် မှတ်ပုံတင် (သို့မဟုတ်) ID မိတ္တူ။
+
+              ၅။ ထိုင်းနိုင်ငံသား အိမ်ထောင်ဖက် ၏ဖိတ်ခေါ်စာ
+              
+              ၆။ ဘဏ်စာရင်း
+
+              _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်း (သို့မဟုတ်) အင်တာဗျူးများ တောင်းဆိုပိုင်ခွင့်ရှိသည်။**_`,
+
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၈၀ (ဝင်ခွင့် တစ်ကြိမ်)
+
+              အမေရိကန်ဒေါ်လာ ၂၀၀ (ဝင်ခွင့် တစ်ကြိမ်ထပ်ပို၍)`,
+              visa_validity: `၃ လ။ (ဝင်ခွင့် တစ်ကြိမ် အတွက်)
+              
+              တစ်နှစ်။ (တစ်ကြိမ်ထက် ပိုသော ဝင်ခွင့် များအတွက်)`,
+              visa_period: `ဤဗီဇာအမျိုးအစားကို ကိုင်ဆောင်ထားသူများသည် ထိုင်းနိုင်ငံတွင် ရက်ပေါင်း ၉၀ အတွင်း အများဆုံးနေထိုင်ခွင့်ရှိသည်။`,
+              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/)  တွင် ခွင့်ပြုချက် လျှောက်ထားရမည်။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
+            }
+          }
+        },{
+          en: {
+            author: 'Royal Thai Embassy',
+            address: `Yangon, Myanmar`,
+            header: `Non-Immigrant Visa O-A (Long Stay)`,
+            details: {
+              eligibility: ``,
+              required_documents: `**1.** Passport or travel document with validity no less than 6 months  
+              
+              **2.** Visa application form completely filled out and signed  
+              
+              **3.** Recent 3.5 cm x 4.5 cm photograph of the applicant  
+              
+              **4.** Copy of marriage certificate, passport, and identity card of the applicant’s Thai spouse or copy of birth certificate of the applicant’s Thai child, and passport and identity card of the child
+              
+              **5.** Letter from the Applicant’s Thai spouse
+              
+              **6.** Bank statement
+              
+              **_The consular officer reserves the right to require additional documents or an interview with the applicant, as deemed necessary._**`,
+
+              visa_fee: `80 USD (single entry)
+              
+                200 USD (multiple entries)`,
+              visa_validity: `3 months (single entry)
+              1 year (multiple entry)`,
+              visa_period: `Travelers coming to Thailand with this type of visa will be permitted to stay in the Kingdom for a period not exceeding 90 days.`,
+              visa_extension: `Those who wish to stay longer or may wish to change their type of visa must apply for permission at the Office of Immigration Bureau located at Government Complex Building B, Chaengwattana Soi 7, Laksi, Bangkok 10210, Tel 0-2141-9889 or [http://www.immigration.go.th](http://www.immigration.go.th/). The extension of stay as well as the change of certain types of visas is solely at the discretion of the immigration officer.`
+            }
+          },
+          my: {
+            author: 'ထိုင်းသံရုံး',
+            address: `ရန်ကုန်, မြန်မာ`,
+            header: `ထိုင်းနိုင်ငံတွင် ကြာရှည် နေထိုင်သူများ ဗီဲဲဇာ`,
+            details: {
+              required_documents: `
+              ၁။ သက်တမ်း အနည်းဆုံး ၆ လရှိသော နိုင်ငံကူး လက်မှတ် (သို့မဟုတ်) ခရီးသွား  အထောက်အထား ။
+
+              ၂။ သတ်မှတ်ထားသော ဗီဇာလျှောက်လွှာ အပြည့်အစုံဖြည့်ပီးရန် နှင့် လက်မှတ်ထိုးပီးရန်။
+              
+              ၃။ မကြာမီက ရိုက်ထားသော ၃.၅ x ၄.၅ စင်တီမီတာ အရွယ်အစားရှိ ဓာတ်ပုံ။ 
+
+              ၄။ အိမ်ထောင်ဘက် ၏ လက်ထက်စာချုပ်၊ နိုင်ငံကူးလက်မှတ်၊ မှတ်ပုံတင် (သို့မဟုတ်) ID မိတ္တူ, ကလေး များအတွက် လျှောက်ထားပါက မွေးစာရင်း၊ နိုင်ငံကူးလက်မှတ်နှင့် မှတ်ပုံတင် (သို့မဟုတ်) ID မိတ္တူ။
+
+              ၅။ ထိုင်းနိုင်ငံသား အိမ်ထောင်ဖက် ၏ဖိတ်ခေါ်စာ
+              
+              ၆။ ဘဏ်စာရင်း
+
+              _**တာဝန် ရှိသူသည် လိုအပ်ပါက နောက်ထပ်စာရွက်စာတမ်း (သို့မဟုတ်) အင်တာဗျူးများ တောင်းဆိုပိုင်ခွင့်ရှိသည်။**_`,
+
+              visa_fee: `အမေရိကန်ဒေါ်လာ ၈၀ (ဝင်ခွင့် တစ်ကြိမ်)
+
+              အမေရိကန်ဒေါ်လာ ၂၀၀ (ဝင်ခွင့် တစ်ကြိမ်ထပ်ပို၍)`,
+              visa_validity: `၃ လ။ (ဝင်ခွင့် တစ်ကြိမ် အတွက်)
+              
+              တစ်နှစ်။ (တစ်ကြိမ်ထက် ပိုသော ဝင်ခွင့် များအတွက်)`,
+              visa_period: `ဤဗီဇာအမျိုးအစားကို ကိုင်ဆောင်ထားသူများသည် ထိုင်းနိုင်ငံတွင် ရက်ပေါင်း ၉၀ အတွင်း အများဆုံးနေထိုင်ခွင့်ရှိသည်။`,
+              visa_extension: `ရက်ရှည်နေထိုင်လိုသူများ သို့မဟုတ် ဗီဇာအမျိုးအစားပြောင်းလဲလိုသူများသည် အစိုးရဌာန တည်ရှိရာ အမှတ် B၊ Chaengwattana Soi 7၊ Laksi၊ Bangkok 10210၊ ဖုန်း 0-2141-9889 (သို့မဟုတ်) [http://www.immigration.go.th](http://www.immigration.go.th/)  တွင် ခွင့်ပြုချက် လျှောက်ထားရမည်။ နေထိုင်ခွင့်သက်တမ်းတိုးခြင်းနှင့် အချို့သောဗီဇာအမျိုးအစားများ အပြောင်းအလဲသည် လူဝင်မှုကြီးကြပ်ရေးအရာရှိ၏ ဆုံးဖြတ်ချက်အရသာဖြစ်သည်။`
             }
           }
         }],

@@ -16,11 +16,12 @@ export default {
   refs: 'ကိုးကား ချက်များ',
   checkpoints: 'သတိထားရမည့် အချက်များ',
   official_announcements: 'တရားဝင်ကြေငြာချက်များ',
+  eligibility: 'အရည်အချင်းပြည့်မီမှု',
   required_documents: 'လိုအပ်သောစာရွက်စာတမ်းများ',
   visa_fee: 'ဗီဇာဆောင်ရွက်ခ',
   visa_validity: 'ဗီဇာသက်တမ်း',
   visa_period: 'နေထိုင့်ခွင့်ကာလ',
-  visa_extension: 'နေထိုင်ခွင့် သက်တမ်းတိုးခြင်း။'
-
+  visa_extension: 'နေထိုင်ခွင့် သက်တမ်းတိုးခြင်း။',
+  recommendations: 'အကြံပြုချက်များ',
 
 } as const;
