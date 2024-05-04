@@ -80,10 +80,19 @@ const CountryInformation = async ({
     ),
   };
 
+  const things_to_know =
+    currentLocale === "my"
+      ? `${t(countryInfo.name, {
+          key: null,
+        })} နိုင်ငံ အကြောင်းသိမှတ်ဖွယ်ရာများ`
+      : `Things to know about ${t(countryInfo.name, {
+          key: null,
+        })}`;
+
   return (
     <div className="grid gap-y-4">
       <div className="mt-4 flex justify-between items-center">
-        <h2 className="text-xl mt-2"> {t(countryInfo.name, { key: null })}</h2>
+        <h2 className="text-xl mt-2">{things_to_know}</h2>
       </div>
       <div className="flex flex-nowrap gap-2 overflow-scroll no-scrollbar">
         {Object?.keys(countryInfo?.categories)?.map((k) => (
