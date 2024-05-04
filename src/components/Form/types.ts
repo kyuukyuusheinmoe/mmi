@@ -10,4 +10,6 @@ export type DropDownProps = {
     optionLabel: string
     optionValue: string
     onChange:(e: any) => void;
+    defaultValue?: string;
+    value: string | null,
 }
