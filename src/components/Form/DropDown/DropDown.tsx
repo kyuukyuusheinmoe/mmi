@@ -11,17 +11,25 @@ const DropDown = ({
   onPointerLeaveCapture,
   optionTemplate,
   options,
+  optionLabel,
+  optionValue,
 }: DropDownProps) => {
   return (
     <div className="w-72">
       <Select
         label={label}
         placeholder={placeholder}
-        onPointerEnterCapture={onPointerEnterCapture}
-        onPointerLeaveCapture={onPointerLeaveCapture}
+        onPointerEnterCapture={(e: any) => {
+          onPointerEnterCapture?.(e);
+        }}
+        onPointerLeaveCapture={(e: any) => {
+          onPointerLeaveCapture?.(e);
+        }}
         onChange={() => {}}>
         {options?.map((opt: any, index: number) => (
-          <Option key={index}> {optionTemplate(opt)} </Option>
+          <Option key={index}>
+            {optionTemplate?.(opt) || opt[optionLabel]}{" "}
+          </Option>
         ))}
       </Select>
     </div>
