@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { countryMapper } from "../constants/CountryList";
 import IconButton from "@/components/IconButton";
 import { basicNeedsIcons } from "./IconMappers";
@@ -14,6 +14,7 @@ import {
 } from "@/components/Cards/types";
 import { getCurrentLocale, getI18n } from "@/locales/server";
 import { CategorySectionHeader } from "@/components/Headers";
+import { infoSectionList } from "@/constants/UIConstants";
 
 const CountryInformation = async ({
   countryCode,
@@ -32,9 +33,52 @@ const CountryInformation = async ({
   const references = countryCategory?.refs;
   const suggestions = countryCategory?.suggestions;
 
-  const checkpoints = countryCategory?.checkPoints;
+  const checkPoints = countryCategory?.checkPoints;
 
   const official_announcements = countryCategory?.official_announcements;
+
+  const InfoSectionMapper: { [key: string]: ReactElement } = {
+    official_announcements: (
+      <>
+        <h3 className="text-lg font-bold">{t("official_announcements")}</h3>
+        <ul>
+          {official_announcements?.map(
+            (
+              doc: { [key: string]: OfficialDocumentCardProps },
+              index: number
+            ) => (
+              <OfficialDocumentCard {...doc?.[currentLocale]} key={index} />
+            )
+          )}
+        </ul>
+      </>
+    ),
+    suggestions: (
+      <div className="">
+        <h3 className="text-lg font-bold">{t("suggestions")}</h3>
+        <ul>
+          {suggestions?.map(
+            (sug: Omit<SuggestionCardProps, "serialNo">, index: number) => (
+              <SuggestionCard serialNo={index + 1} {...sug} key={index} />
+            )
+          )}
+        </ul>
+      </div>
+    ),
+    checkPoints: (
+      <div>
+        <h3 className="text-lg font-bold">{t("checkpoints")}</h3>
+        <ul>
+          {checkPoints?.[currentLocale]?.map((cp: string, index: number) => (
+            <li key={index} className="text-sm gap-x-1 flex items-baseline">
+              <i className="fa fa-check" aria-hidden="true"></i>
+              {cp}
+            </li>
+          ))}
+        </ul>
+      </div>
+    ),
+  };
 
   return (
     <div className="grid gap-y-4">
@@ -57,39 +101,15 @@ const CountryInformation = async ({
         ))}
       </div>
       <div className="">
-        <h3 className="text-lg font-bold">{t("official_announcements")}</h3>
-        <ul>
-          {official_announcements?.map(
-            (
-              doc: { [key: string]: OfficialDocumentCardProps },
-              index: number
-            ) => (
-              <OfficialDocumentCard {...doc?.[currentLocale]} key={index} />
-            )
-          )}
-        </ul>
+        {infoSectionList?.map((section) => {
+          return (
+            <div>
+              {countryCategory?.[section] ? InfoSectionMapper[section] : null}
+            </div>
+          );
+        })}
       </div>
-      <div className="">
-        <h3 className="text-lg font-bold">{t("suggestions")}</h3>
-        <ul>
-          {suggestions?.map(
-            (sug: Omit<SuggestionCardProps, "serialNo">, index: number) => (
-              <SuggestionCard serialNo={index + 1} {...sug} key={index} />
-            )
-          )}
-        </ul>
-      </div>
-      <div>
-        <h3 className="text-lg font-bold">{t("checkpoints")}</h3>
-        <ul>
-          {checkpoints?.[currentLocale]?.map((cp: string, index: number) => (
-            <li key={index} className="text-sm gap-x-1 flex items-baseline">
-              <i className="fa fa-check" aria-hidden="true"></i>
-              {cp}
-            </li>
-          ))}
-        </ul>
-      </div>
+
       <div className=" overflow-scroll no-scrollbar">
         <CategorySectionHeader
           title={t("refs")}

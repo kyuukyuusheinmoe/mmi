@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { Select, Option } from "@material-tailwind/react";
 import { DropDownProps } from "../types";
 
