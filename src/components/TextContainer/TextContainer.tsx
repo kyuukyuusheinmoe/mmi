@@ -10,7 +10,7 @@ const TextContainer = ({ children }: { children: ReactNode }) => {
     <>
       <div
         className={clsx(
-          "text-gray-800 whitespace-pre-line",
+          "text-gray-800",
           isExpanded
             ? "max-h-full overflow-y-auto"
             : "max-h-[12rem] overflow-hidden p-1"
