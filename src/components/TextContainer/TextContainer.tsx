@@ -18,7 +18,7 @@ const TextContainer = ({ children }: { children: ReactNode }) => {
         {children}
       </div>
       <span
-        className="text-blue-700"
+        className="text-blue-700 font-medium"
         onClick={() => setExpanded(!isExpanded)}>{`See ${
         !isExpanded ? "More" : "Less"
       }`}</span>

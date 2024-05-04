@@ -2,6 +2,7 @@ import React from "react";
 import MDXComponent from "@/components/MDXComponent";
 import StringAvatar from "@/components/StringAvatar";
 import { SuggestionCardProps } from "../types";
+import TextContainer from "@/components/TextContainer";
 
 const SuggestionCard = ({
   serialNo,
@@ -22,7 +23,9 @@ const SuggestionCard = ({
       <li key={serialNo} className="text-sm gap-x-1 grid items-baseline">
         <h5 className="font-bold"> {header}</h5>
         <div className="grid">
-          {content && <MDXComponent mdxStr={content} />}
+          <TextContainer>
+            {content && <MDXComponent mdxStr={content} />}
+          </TextContainer>
         </div>
       </li>
     </div>
