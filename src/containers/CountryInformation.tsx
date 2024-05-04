@@ -44,10 +44,15 @@ const CountryInformation = async ({
       <div className="flex flex-nowrap gap-2 overflow-scroll no-scrollbar">
         {Object?.keys(countryInfo?.categories)?.map((k) => (
           <IconButton
+            selected={k === category}
             key={k}
             icon={basicNeedsIcons[k]}
             label={k}
             url={`?country=${countryCode}&category=${k}`}
+            styledClasses={{
+              selected: "border-red-300 text-red-300",
+              unselected: "border-gray-300",
+            }}
           />
         ))}
       </div>
