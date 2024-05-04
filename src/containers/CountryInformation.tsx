@@ -50,7 +50,7 @@ const CountryInformation = async ({
             label={k}
             url={`?country=${countryCode}&category=${k}`}
             styledClasses={{
-              selected: "border-red-300 text-red-300",
+              selected: "border-red-300 text-red-300 font-medium",
               unselected: "border-gray-300",
             }}
           />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const StringAvatar = ({ name }: { name: string }) => {
   const startName = name.charAt(0).toUpperCase();

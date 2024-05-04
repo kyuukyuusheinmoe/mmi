@@ -6,10 +6,13 @@ import { DropDown } from "@/components/Form";
 import Language from "@/locales/en";
 import clsx from "clsx";
 import { useI18n } from "@/locales/client";
+import { defaultCountry } from "@/constants/UIConstants";
 
 const CountryList = async () => {
   const t = useI18n();
-  const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+  const [selectedCountry, setSelectedCountry] = useState<string | null>(
+    defaultCountry
+  );
   const searchParams = useSearchParams();
   const pathName = usePathname();
   const router = useRouter();
@@ -23,7 +26,7 @@ const CountryList = async () => {
     const allParams = new URLSearchParams(searchParams);
     selectedCountry && allParams.set("country", selectedCountry);
 
-    router.replace(`/${pathName}?${allParams.toString()}`);
+    router.replace(`${pathName}?${allParams.toString()}`);
   }, [selectedCountry]);
 
   return (
@@ -36,7 +39,7 @@ const CountryList = async () => {
         }}
         optionLabel={"label"}
         optionValue={"code"}
-        defaultValue={countries[0]?.code}
+        defaultValue={defaultCountry}
         optionTemplate={(option: any) => (
           <>
             <div className={clsx("flex gap-2 p-2  w-fit")}>
